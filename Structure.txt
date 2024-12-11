@@ -1,0 +1,956 @@
+╒═══════════════════╕
+│label              │
+╞═══════════════════╡
+│"GeographicalSpace"│
+├───────────────────┤
+│"Country"          │
+├───────────────────┤
+│"Resource"         │
+├───────────────────┤
+│"Infrastructure"   │
+├───────────────────┤
+│"Military"         │
+├───────────────────┤
+│"Technology"       │
+├───────────────────┤
+│"EconomicFeature"  │
+├───────────────────┤
+│"Organization"     │
+├───────────────────┤
+│"Concept"          │
+├───────────────────┤
+│"Event"            │
+├───────────────────┤
+│"Person"           │
+├───────────────────┤
+│"Region"           │
+├───────────────────┤
+│"Government"       │
+├───────────────────┤
+│"Agency"           │
+├───────────────────┤
+│"Objective"        │
+└───────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│GeographicalSpace Nodes                                               │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:GeographicalSpace {total_area: "10,000,000 km²",population_density: │
+│"Low to Medium",name: "Eurasian Flatlands",major_water_bodies: ["Dniep│
+│er River", "Volga River", "Ural River"]})                             │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "20,000,000 km²",population_density: │
+│"Medium to High",name: "Rimland",major_water_bodies: ["Pacific Ocean",│
+│ "South China Sea", "Indian Ocean"]})                                 │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "200,000 km²",population_density: "Lo│
+│w",name: "Carpathian Mountains",major_water_bodies: ["Tisza River"]}) │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "440,000 km²",population_density: "Lo│
+│w to Medium",name: "Caucasus",major_water_bodies: ["Kura River", "Casp│
+│ian Sea"]})                                                           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {role: "Provides military protection for part of t│
+│he year",name: "Arctic Ocean",location: "North of Russia"})           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {role: "Crucial for Ukraine's access to internatio│
+│nal sea lanes",name: "Turkish Straits",location: "Between Ukraine and │
+│international trade routes"})                                         │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {name: "Discontinuous Borders"})                  │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {name: "Discontinuous Borders"})                  │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Country node                                                          │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Country {official_language: "Russian",capital: "Moscow",government_t│
+│ype: "Federal",name: "Russia",cause: "Aging Population",currency: "Rub│
+│le",region: "Eastern Europe, Asia",population: 144000000,example: "Cri│
+│mean Dispute"})                                                       │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Country {official_language: "Mandarin",capital: "Beijing",government│
+│_type: "Socialist Republic",name: "China",currency: "Renminbi (Yuan)",│
+│source: "Industrial Activity",region: "East Asia",population: 14000000│
+│00})                                                                  │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Country {official_language: "Ukrainian",capital: "Kyiv",government_t│
+│ype: "Unitary",name: "Ukraine",currency: "Hryvnia",region: "Eastern Eu│
+│rope",population: 41000000})                                          │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒═════════════════════════════════════════╕
+│Ressources nodes                         │
+╞═════════════════════════════════════════╡
+│(:Resource {name: "Oil"})                │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Coal"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Strategic Minerals"}) │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Rare Earths"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Sugar Beets"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Wheat"})              │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Freshwater Reserves"})│
+├─────────────────────────────────────────┤
+│(:Resource {name: "Arable Land"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Grain (Wheat, Corn)"})│
+├─────────────────────────────────────────┤
+│(:Resource {name: "Iron Ore"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Manganese"})          │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Natural Gas"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Salt"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Sulfur"})             │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Graphite"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Titanium"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Nickel"})             │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Mercury"})            │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Gold"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Timber"})             │
+└─────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Infrastructure Nodes                                                  │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Infrastructure {name: "Railways and Roads",description: "Well-develo│
+│ ped, increases accessibility"})                                      │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Military Nodes                                                        │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Military {sea_systems: true,land_systems: true,name: "Russian Milita│
+│ry",missile_systems: true,air_systems: true,artillery: true})         │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_systems: true,importedFrom: "Iran, │
+│North Korea",land_systems: true,name: "Russian Weapons",missile_system│
+│s: true,air_systems: true,artillery: true})                           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Domestically Produced Weapons"})                   │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Imported Weapons"})                                │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Ukrainian Military"})                              │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Russian Military Forces"})                         │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒════════════════════════════════════════════════════╕
+│Technology Nodes                                    │
+╞════════════════════════════════════════════════════╡
+│(:Technology {name: "Operational Nuclear Reactors"})│
+├────────────────────────────────────────────────────┤
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Economic Feature nodes                                                │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:EconomicFeature {role: "Global trade routes accessible via Turkish S│
+│traits",name: "International Trade Sea Lanes"})                       │
+└──────────────────────────────────────────────────────────────────────┘
+
+
+╒═════════════════════════════════════════════╕
+│Organization nodes                           │
+╞═════════════════════════════════════════════╡
+│(:Organization {name: "UN Security Council"})│
+├─────────────────────────────────────────────┤
+│(:Organization {name: "EU"})                 │
+├─────────────────────────────────────────────┤
+│(:Organization {name: "NATO"})               │
+└─────────────────────────────────────────────┘
+
+
+╒══════════════════════════════════════════╕
+│Concept Nodes                             │
+╞══════════════════════════════════════════╡
+│(:Concept {name: "Ukrainian Sovereignty"})│
+└──────────────────────────────────────────┘
+
+
+╒════════════════════════════════════════╕
+│Event Nodes                             │
+╞════════════════════════════════════════╡
+│(:Event {name: "Donbass War"})          │
+├────────────────────────────────────────┤
+│(:Event {name: "Bucharest Summit 2008"})│
+├────────────────────────────────────────┤
+│(:Event {name: "Euromaidan Protests"})  │
+├────────────────────────────────────────┤
+│(:Event {name: "Donbass War"})          │
+├────────────────────────────────────────┤
+│(:Event {name: "Intensified Combat"})   │
+└────────────────────────────────────────┘
+
+╒══════════════════════════════════════╕
+│Person Nodes                          │
+╞══════════════════════════════════════╡
+│(:Person {name: "Viktor Yanukovych"}) │
+├──────────────────────────────────────┤
+│(:Person {name: "Vladimir Putin"})    │
+├──────────────────────────────────────┤
+│(:Person {name: "Volodymyr Zelensky"})│
+└──────────────────────────────────────┘
+
+
+╒══════════════════════════╕
+│Region Nodes              │
+╞══════════════════════════╡
+│(:Region {name: "Crimea"})│
+├──────────────────────────┤
+│(:Region {name: "West"})  │
+└──────────────────────────┘
+
+╒══════════════════════════════════════════╕
+│Government nodes                          │
+╞══════════════════════════════════════════╡
+│(:Government {name: "Russian Government"})│
+└──────────────────────────────────────────┘
+
+╒════════════════════════════════════════╕
+│Agency Nodes                            │
+╞════════════════════════════════════════╡
+│(:Agency {name: "Russian Intelligence"})│
+└────────────────────────────────────────┘
+
+╒════════════════════════════════════════════════════════╕
+│Objective  Nodes                                        │
+╞════════════════════════════════════════════════════════╡
+│(:Objective {name: "Buffer-State Status for Ukraine"})  │
+├────────────────────────────────────────────────────────┤
+│(:Objective {name: "Total Victory Over Ukraine"})       │
+├────────────────────────────────────────────────────────┤
+│(:Objective {name: "Territorial Annexation of Ukraine"})│
+└────────────────────────────────────────────────────────┘
+
+╒══════════════════════════╤══════════════════════════╤══════════════════════════╕
+│n1                        │r                         │n2                        │
+╞══════════════════════════╪══════════════════════════╪══════════════════════════╡
+│(:Country {official_langua│[:IS_PART_OF]             │(:Organization {name: "UN │
+│ge: "Russian",capital: "Mo│                          │Security Council"})       │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS]                    │(:GeographicalSpace {role:│
+│ge: "Russian",capital: "Mo│                          │ "Provides military protec│
+│scow",government_type: "Fe│                          │tion for part of the year"│
+│deral",name: "Russia",caus│                          │,name: "Arctic Ocean",loca│
+│e: "Aging Population",curr│                          │tion: "North of Russia"}) │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_INTERNAL_PROBLEM {│(:GeographicalSpace {total│
+│ge: "Russian",capital: "Mo│description: "Internal pro│_area: "440,000 km²",popul│
+│scow",government_type: "Fe│blem causing resentment"}]│ation_density: "Low to Med│
+│deral",name: "Russia",caus│                          │ium",name: "Caucasus",majo│
+│e: "Aging Population",curr│                          │r_water_bodies: ["Kura Riv│
+│ency: "Ruble",region: "Eas│                          │er", "Caspian Sea"]})     │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_BORDER_CHALLENGE {│(:GeographicalSpace {name:│
+│ge: "Russian",capital: "Mo│length: 22407,description:│ "Discontinuous Borders"})│
+│scow",government_type: "Fe│ "Geopolitical challenge"}│                          │
+│deral",name: "Russia",caus│]                         │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Oil"}) │
+│ge: "Russian",capital: "Mo│                          │                          │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Coal"})│
+│ge: "Russian",capital: "Mo│                          │                          │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Strateg│
+│ge: "Russian",capital: "Mo│                          │ic Minerals"})            │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Rare Ea│
+│ge: "Russian",capital: "Mo│                          │rths"})                   │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Freshwa│
+│ge: "Russian",capital: "Mo│                          │ter Reserves"})           │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Natural│
+│ge: "Russian",capital: "Mo│                          │ Gas"})                   │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Timber"│
+│ge: "Russian",capital: "Mo│                          │})                        │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PRODUCES]               │(:Resource {name: "Sugar B│
+│ge: "Russian",capital: "Mo│                          │eets"})                   │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PRODUCES]               │(:Resource {name: "Wheat"}│
+│ge: "Russian",capital: "Mo│                          │)                         │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_EXPORT_PARTNER {perc│(:Country {official_langua│
+│ge: "Russian",capital: "Mo│entage: 21}]              │ge: "Mandarin",capital: "B│
+│scow",government_type: "Fe│                          │eijing",government_type: "│
+│deral",name: "Russia",caus│                          │Socialist Republic",name: │
+│e: "Aging Population",curr│                          │"China",currency: "Renminb│
+│ency: "Ruble",region: "Eas│                          │i (Yuan)",source: "Industr│
+│tern Europe, Asia",populat│                          │ial Activity",region: "Eas│
+│ion: 144000000,example: "C│                          │t Asia",population: 140000│
+│rimean Dispute"})         │                          │0000})                    │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_IMPORT_PARTNER {perc│(:Country {official_langua│
+│ge: "Russian",capital: "Mo│entage: 39}]              │ge: "Mandarin",capital: "B│
+│scow",government_type: "Fe│                          │eijing",government_type: "│
+│deral",name: "Russia",caus│                          │Socialist Republic",name: │
+│e: "Aging Population",curr│                          │"China",currency: "Renminb│
+│ency: "Ruble",region: "Eas│                          │i (Yuan)",source: "Industr│
+│tern Europe, Asia",populat│                          │ial Activity",region: "Eas│
+│ion: 144000000,example: "C│                          │t Asia",population: 140000│
+│rimean Dispute"})         │                          │0000})                    │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_GDP_GROWTH_RATE {gro│(:Country {official_langua│
+│ge: "Russian",capital: "Mo│wth_rate: 3.6,year: 2023}]│ge: "Russian",capital: "Mo│
+│scow",government_type: "Fe│                          │scow",government_type: "Fe│
+│deral",name: "Russia",caus│                          │deral",name: "Russia",caus│
+│e: "Aging Population",curr│                          │e: "Aging Population",curr│
+│ency: "Ruble",region: "Eas│                          │ency: "Ruble",region: "Eas│
+│tern Europe, Asia",populat│                          │tern Europe, Asia",populat│
+│ion: 144000000,example: "C│                          │ion: 144000000,example: "C│
+│rimean Dispute"})         │                          │rimean Dispute"})         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:ANNEXED]                │(:Region {name: "Crimea"})│
+│ge: "Russian",capital: "Mo│                          │                          │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:INVOLVED_IN]            │(:Event {name: "Donbass Wa│
+│ge: "Russian",capital: "Mo│                          │r"})                      │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:STARTED_WAR]            │(:Country {official_langua│
+│ge: "Russian",capital: "Mo│                          │ge: "Ukrainian",capital: "│
+│scow",government_type: "Fe│                          │Kyiv",government_type: "Un│
+│deral",name: "Russia",caus│                          │itary",name: "Ukraine",cur│
+│e: "Aging Population",curr│                          │rency: "Hryvnia",region: "│
+│ency: "Ruble",region: "Eas│                          │Eastern Europe",population│
+│tern Europe, Asia",populat│                          │: 41000000})              │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_PROTECTION_FROM {d│(:GeographicalSpace {role:│
+│ge: "Russian",capital: "Mo│escription: "Provides mili│ "Provides military protec│
+│scow",government_type: "Fe│tary protection for part o│tion for part of the year"│
+│deral",name: "Russia",caus│f the year"}]             │,name: "Arctic Ocean",loca│
+│e: "Aging Population",curr│                          │tion: "North of Russia"}) │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_GEOPOLITICAL_CHALL│(:GeographicalSpace {total│
+│ge: "Russian",capital: "Mo│ENGE {description: "A geop│_area: "10,000,000 km²",po│
+│scow",government_type: "Fe│olitical challenge"}]     │pulation_density: "Low to │
+│deral",name: "Russia",caus│                          │Medium",name: "Eurasian Fl│
+│e: "Aging Population",curr│                          │atlands",major_water_bodie│
+│ency: "Ruble",region: "Eas│                          │s: ["Dnieper River", "Volg│
+│tern Europe, Asia",populat│                          │a River", "Ural River"]}) │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_PRESSURE_FROM {des│(:GeographicalSpace {total│
+│ge: "Russian",capital: "Mo│cription: "Applies pressur│_area: "20,000,000 km²",po│
+│scow",government_type: "Fe│e, encircles Russia"}]    │pulation_density: "Medium │
+│deral",name: "Russia",caus│                          │to High",name: "Rimland",m│
+│e: "Aging Population",curr│                          │ajor_water_bodies: ["Pacif│
+│ency: "Ruble",region: "Eas│                          │ic Ocean", "South China Se│
+│tern Europe, Asia",populat│                          │a", "Indian Ocean"]})     │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PERCEIVES_AS_HISTORICAL_│(:Country {official_langua│
+│ge: "Russian",capital: "Mo│LANDS]                    │ge: "Ukrainian",capital: "│
+│scow",government_type: "Fe│                          │Kyiv",government_type: "Un│
+│deral",name: "Russia",caus│                          │itary",name: "Ukraine",cur│
+│e: "Aging Population",curr│                          │rency: "Hryvnia",region: "│
+│ency: "Ruble",region: "Eas│                          │Eastern Europe",population│
+│tern Europe, Asia",populat│                          │: 41000000})              │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PERCEIVES_THREAT_FROM]  │(:Organization {name: "NAT│
+│ge: "Russian",capital: "Mo│                          │O"})                      │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES]                  │(:Military {sea_systems: t│
+│ge: "Russian",capital: "Mo│                          │rue,land_systems: true,nam│
+│scow",government_type: "Fe│                          │e: "Russian Military",miss│
+│deral",name: "Russia",caus│                          │ile_systems: true,air_syst│
+│e: "Aging Population",curr│                          │ems: true,artillery: true}│
+│ency: "Ruble",region: "Eas│                          │)                         │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:LAUNCHED_WAR_ON]        │(:Country {official_langua│
+│ge: "Russian",capital: "Mo│                          │ge: "Ukrainian",capital: "│
+│scow",government_type: "Fe│                          │Kyiv",government_type: "Un│
+│deral",name: "Russia",caus│                          │itary",name: "Ukraine",cur│
+│e: "Aging Population",curr│                          │rency: "Hryvnia",region: "│
+│ency: "Ruble",region: "Eas│                          │Eastern Europe",population│
+│tern Europe, Asia",populat│                          │: 41000000})              │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:DEPLOYED]               │(:Military {sea_systems: t│
+│ge: "Russian",capital: "Mo│                          │rue,land_systems: true,nam│
+│scow",government_type: "Fe│                          │e: "Russian Military",miss│
+│deral",name: "Russia",caus│                          │ile_systems: true,air_syst│
+│e: "Aging Population",curr│                          │ems: true,artillery: true}│
+│ency: "Ruble",region: "Eas│                          │)                         │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:CONSIDERS_USE_OF {name: │(:Military {domestic: "Rus│
+│ge: "Russian",capital: "Mo│"Nuclear Weapons"}]       │sia",sea_systems: true,imp│
+│scow",government_type: "Fe│                          │ortedFrom: "Iran, North Ko│
+│deral",name: "Russia",caus│                          │rea",land_systems: true,na│
+│e: "Aging Population",curr│                          │me: "Russian Weapons",miss│
+│ency: "Ruble",region: "Eas│                          │ile_systems: true,air_syst│
+│tern Europe, Asia",populat│                          │ems: true,artillery: true}│
+│ion: 144000000,example: "C│                          │)                         │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SEEKS_OBJECTIVE]        │(:Objective {name: "Buffer│
+│ge: "Russian",capital: "Mo│                          │-State Status for Ukraine"│
+│scow",government_type: "Fe│                          │})                        │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SEEKS_OBJECTIVE]        │(:Objective {name: "Total │
+│ge: "Russian",capital: "Mo│                          │Victory Over Ukraine"})   │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SEEKS_OBJECTIVE]        │(:Objective {name: "Territ│
+│ge: "Russian",capital: "Mo│                          │orial Annexation of Ukrain│
+│scow",government_type: "Fe│                          │e"})                      │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SEEKS_NEUTRALITY_OF]    │(:Country {official_langua│
+│ge: "Russian",capital: "Mo│                          │ge: "Ukrainian",capital: "│
+│scow",government_type: "Fe│                          │Kyiv",government_type: "Un│
+│deral",name: "Russia",caus│                          │itary",name: "Ukraine",cur│
+│e: "Aging Population",curr│                          │rency: "Hryvnia",region: "│
+│ency: "Ruble",region: "Eas│                          │Eastern Europe",population│
+│tern Europe, Asia",populat│                          │: 41000000})              │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PERCEIVES_WEAKNESS_IN]  │(:Region {name: "West"})  │
+│ge: "Russian",capital: "Mo│                          │                          │
+│scow",government_type: "Fe│                          │                          │
+│deral",name: "Russia",caus│                          │                          │
+│e: "Aging Population",curr│                          │                          │
+│ency: "Ruble",region: "Eas│                          │                          │
+│tern Europe, Asia",populat│                          │                          │
+│ion: 144000000,example: "C│                          │                          │
+│rimean Dispute"})         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:IS_PART_OF]             │(:Country {official_langua│
+│rue,land_systems: true,nam│                          │ge: "Russian",capital: "Mo│
+│e: "Russian Military",miss│                          │scow",government_type: "Fe│
+│ile_systems: true,air_syst│                          │deral",name: "Russia",caus│
+│ems: true,artillery: true}│                          │e: "Aging Population",curr│
+│)                         │                          │ency: "Ruble",region: "Eas│
+│                          │                          │tern Europe, Asia",populat│
+│                          │                          │ion: 144000000,example: "C│
+│                          │                          │rimean Dispute"})         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:INCLUDES {problem: "Inad│(:Country {official_langua│
+│rue,land_systems: true,nam│equately trained and unmot│ge: "Russian",capital: "Mo│
+│e: "Russian Military",miss│ivated forces"}]          │scow",government_type: "Fe│
+│ile_systems: true,air_syst│                          │deral",name: "Russia",caus│
+│ems: true,artillery: true}│                          │e: "Aging Population",curr│
+│)                         │                          │ency: "Ruble",region: "Eas│
+│                          │                          │tern Europe, Asia",populat│
+│                          │                          │ion: 144000000,example: "C│
+│                          │                          │rimean Dispute"})         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:HAS_EQUIPMENT]          │(:Military {domestic: "Rus│
+│rue,land_systems: true,nam│                          │sia",sea_systems: true,imp│
+│e: "Russian Military",miss│                          │ortedFrom: "Iran, North Ko│
+│ile_systems: true,air_syst│                          │rea",land_systems: true,na│
+│ems: true,artillery: true}│                          │me: "Russian Weapons",miss│
+│)                         │                          │ile_systems: true,air_syst│
+│                          │                          │ems: true,artillery: true}│
+│                          │                          │)                         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:POSSESSES_NUCLEAR_ARMS] │(:Military {domestic: "Rus│
+│rue,land_systems: true,nam│                          │sia",sea_systems: true,imp│
+│e: "Russian Military",miss│                          │ortedFrom: "Iran, North Ko│
+│ile_systems: true,air_syst│                          │rea",land_systems: true,na│
+│ems: true,artillery: true}│                          │me: "Russian Weapons",miss│
+│)                         │                          │ile_systems: true,air_syst│
+│                          │                          │ems: true,artillery: true}│
+│                          │                          │)                         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:LAUNCHED_WAR_ON]        │(:Country {official_langua│
+│rue,land_systems: true,nam│                          │ge: "Ukrainian",capital: "│
+│e: "Russian Military",miss│                          │Kyiv",government_type: "Un│
+│ile_systems: true,air_syst│                          │itary",name: "Ukraine",cur│
+│ems: true,artillery: true}│                          │rency: "Hryvnia",region: "│
+│)                         │                          │Eastern Europe",population│
+│                          │                          │: 41000000})              │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {sea_systems: t│[:MOVED_TO {region: "Khers│(:Country {official_langua│
+│rue,land_systems: true,nam│on"}]                     │ge: "Ukrainian",capital: "│
+│e: "Russian Military",miss│                          │Kyiv",government_type: "Un│
+│ile_systems: true,air_syst│                          │itary",name: "Ukraine",cur│
+│ems: true,artillery: true}│                          │rency: "Hryvnia",region: "│
+│)                         │                          │Eastern Europe",population│
+│                          │                          │: 41000000})              │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Event {name: "Bucharest │[:OCCURRED_AT]            │(:Organization {name: "NAT│
+│Summit 2008"})            │                          │O"})                      │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {domestic: "Rus│[:INCLUDES {country: "Russ│(:Military {name: "Domesti│
+│sia",sea_systems: true,imp│ia",type: "Domestic"}]    │cally Produced Weapons"}) │
+│ortedFrom: "Iran, North Ko│                          │                          │
+│rea",land_systems: true,na│                          │                          │
+│me: "Russian Weapons",miss│                          │                          │
+│ile_systems: true,air_syst│                          │                          │
+│ems: true,artillery: true}│                          │                          │
+│)                         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {domestic: "Rus│[:INCLUDES {country: "Iran│(:Military {name: "Importe│
+│sia",sea_systems: true,imp│, North Korea",type: "Impo│d Weapons"})              │
+│ortedFrom: "Iran, North Ko│rted"}]                   │                          │
+│rea",land_systems: true,na│                          │                          │
+│me: "Russian Weapons",miss│                          │                          │
+│ile_systems: true,air_syst│                          │                          │
+│ems: true,artillery: true}│                          │                          │
+│)                         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {domestic: "Rus│[:POSSESSES {count: 1710,t│(:Military {sea_systems: t│
+│sia",sea_systems: true,imp│ype: "Deployed"}]         │rue,land_systems: true,nam│
+│ortedFrom: "Iran, North Ko│                          │e: "Russian Military",miss│
+│rea",land_systems: true,na│                          │ile_systems: true,air_syst│
+│me: "Russian Weapons",miss│                          │ems: true,artillery: true}│
+│ile_systems: true,air_syst│                          │)                         │
+│ems: true,artillery: true}│                          │                          │
+│)                         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {domestic: "Rus│[:USED_ON]                │(:Country {official_langua│
+│sia",sea_systems: true,imp│                          │ge: "Ukrainian",capital: "│
+│ortedFrom: "Iran, North Ko│                          │Kyiv",government_type: "Un│
+│rea",land_systems: true,na│                          │itary",name: "Ukraine",cur│
+│me: "Russian Weapons",miss│                          │rency: "Hryvnia",region: "│
+│ile_systems: true,air_syst│                          │Eastern Europe",population│
+│ems: true,artillery: true}│                          │: 41000000})              │
+│)                         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Military {domestic: "Rus│[:TARGETED_AT {Region: "Kh│(:Country {official_langua│
+│sia",sea_systems: true,imp│arkiv,Kherson"}]          │ge: "Ukrainian",capital: "│
+│ortedFrom: "Iran, North Ko│                          │Kyiv",government_type: "Un│
+│rea",land_systems: true,na│                          │itary",name: "Ukraine",cur│
+│me: "Russian Weapons",miss│                          │rency: "Hryvnia",region: "│
+│ile_systems: true,air_syst│                          │Eastern Europe",population│
+│ems: true,artillery: true}│                          │: 41000000})              │
+│)                         │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Vladimir │[:CONTROLS]               │(:Government {name: "Russi│
+│Putin"})                  │                          │an Government"})          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Vladimir │[:LEADS]                  │(:Military {sea_systems: t│
+│Putin"})                  │                          │rue,land_systems: true,nam│
+│                          │                          │e: "Russian Military",miss│
+│                          │                          │ile_systems: true,air_syst│
+│                          │                          │ems: true,artillery: true}│
+│                          │                          │)                         │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Vladimir │[:INFLUENCES]             │(:Agency {name: "Russian I│
+│Putin"})                  │                          │ntelligence"})            │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Vladimir │[:ISSUES_COMMAND_TO]      │(:Military {name: "Russian│
+│Putin"})                  │                          │ Military Forces"})       │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Volodymyr│[:LEADS]                  │(:Military {name: "Ukraini│
+│ Zelensky"})              │                          │an Military"})            │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Volodymyr│[:FIGHTS_FOR]             │(:Concept {name: "Ukrainia│
+│ Zelensky"})              │                          │n Sovereignty"})          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Volodymyr│[:MOBILIZED]              │(:Country {official_langua│
+│ Zelensky"})              │                          │ge: "Ukrainian",capital: "│
+│                          │                          │Kyiv",government_type: "Un│
+│                          │                          │itary",name: "Ukraine",cur│
+│                          │                          │rency: "Hryvnia",region: "│
+│                          │                          │Eastern Europe",population│
+│                          │                          │: 41000000})              │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Person {name: "Volodymyr│[:ISSUES_COMMAND_TO]      │(:Military {name: "Ukraini│
+│ Zelensky"})              │                          │an Military"})            │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:IS_PART_OF]             │(:Organization {name: "NAT│
+│ge: "Ukrainian",capital: "│                          │O"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_INFRASTRUCTURE {desc│(:Infrastructure {name: "R│
+│ge: "Ukrainian",capital: "│ription: "Well-developed, │ailways and Roads",descrip│
+│Kyiv",government_type: "Un│increases accessibility"}]│tion: "Well-developed, inc│
+│itary",name: "Ukraine",cur│                          │reases accessibility"})   │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_BORDER_CHALLENGE {│(:GeographicalSpace {name:│
+│ge: "Ukrainian",capital: "│length: 5581,description: │ "Discontinuous Borders"})│
+│Kyiv",government_type: "Un│"Geopolitical challenge"}]│                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Oil"}) │
+│ge: "Ukrainian",capital: "│                          │                          │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Coal"})│
+│ge: "Ukrainian",capital: "│                          │                          │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Arable │
+│ge: "Ukrainian",capital: "│                          │Land"})                   │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Grain (│
+│ge: "Ukrainian",capital: "│                          │Wheat, Corn)"})           │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Iron Or│
+│ge: "Ukrainian",capital: "│                          │e"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Mangane│
+│ge: "Ukrainian",capital: "│                          │se"})                     │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Natural│
+│ge: "Ukrainian",capital: "│                          │ Gas"})                   │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Salt"})│
+│ge: "Ukrainian",capital: "│                          │                          │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Sulfur"│
+│ge: "Ukrainian",capital: "│                          │})                        │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Graphit│
+│ge: "Ukrainian",capital: "│                          │e"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Titaniu│
+│ge: "Ukrainian",capital: "│                          │m"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Nickel"│
+│ge: "Ukrainian",capital: "│                          │})                        │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Mercury│
+│ge: "Ukrainian",capital: "│                          │"})                       │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Gold"})│
+│ge: "Ukrainian",capital: "│                          │                          │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_RESOURCE]           │(:Resource {name: "Timber"│
+│ge: "Ukrainian",capital: "│                          │})                        │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_GDP_GROWTH_RATE {gro│(:Country {official_langua│
+│ge: "Ukrainian",capital: "│wth_rate: 5.3,year: 2023}]│ge: "Ukrainian",capital: "│
+│Kyiv",government_type: "Un│                          │Kyiv",government_type: "Un│
+│itary",name: "Ukraine",cur│                          │itary",name: "Ukraine",cur│
+│rency: "Hryvnia",region: "│                          │rency: "Hryvnia",region: "│
+│Eastern Europe",population│                          │Eastern Europe",population│
+│: 41000000})              │                          │: 41000000})              │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_NUCLEAR_REACTORS]   │(:Technology {name: "Opera│
+│ge: "Ukrainian",capital: "│                          │tional Nuclear Reactors"})│
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:HAS_NUCLEAR_REACTORS]   │(:Technology {name: "Opera│
+│ge: "Ukrainian",capital: "│                          │tional Nuclear Reactors"})│
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SEEKING_MEMBERSHIP]     │(:Organization {name: "NAT│
+│ge: "Ukrainian",capital: "│                          │O"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:SIGNED_AGREEMENT_WITH]  │(:Organization {name: "EU"│
+│ge: "Ukrainian",capital: "│                          │})                        │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PROTESTED_IN]           │(:Event {name: "Euromaidan│
+│ge: "Ukrainian",capital: "│                          │ Protests"})              │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:LED_BY]                 │(:Person {name: "Viktor Ya│
+│ge: "Ukrainian",capital: "│                          │nukovych"})               │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PARTICIPATED_IN]        │(:Event {name: "Donbass Wa│
+│ge: "Ukrainian",capital: "│                          │r"})                      │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:FACES_BARRIER_FROM {desc│(:GeographicalSpace {total│
+│ge: "Ukrainian",capital: "│ription: "A geographical b│_area: "200,000 km²",popul│
+│Kyiv",government_type: "Un│arrier in the west"}]     │ation_density: "Low",name:│
+│itary",name: "Ukraine",cur│                          │ "Carpathian Mountains",ma│
+│rency: "Hryvnia",region: "│                          │jor_water_bodies: ["Tisza │
+│Eastern Europe",population│                          │River"]})                 │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:RELIES_ON {description: │(:GeographicalSpace {role:│
+│ge: "Ukrainian",capital: "│"Depends on them to access│ "Crucial for Ukraine's ac│
+│Kyiv",government_type: "Un│ international trade lanes│cess to international sea │
+│itary",name: "Ukraine",cur│"}]                       │lanes",name: "Turkish Stra│
+│rency: "Hryvnia",region: "│                          │its",location: "Between Uk│
+│Eastern Europe",population│                          │raine and international tr│
+│: 41000000})              │                          │ade routes"})             │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:RELIES_ON {description: │(:EconomicFeature {role: "│
+│ge: "Ukrainian",capital: "│"Accessible via Turkish St│Global trade routes access│
+│Kyiv",government_type: "Un│raits"}]                  │ible via Turkish Straits",│
+│itary",name: "Ukraine",cur│                          │name: "International Trade│
+│rency: "Hryvnia",region: "│                          │ Sea Lanes"})             │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Country {official_langua│[:PREPARES_FOR]           │(:Event {name: "Intensifie│
+│ge: "Ukrainian",capital: "│                          │d Combat"})               │
+│Kyiv",government_type: "Un│                          │                          │
+│itary",name: "Ukraine",cur│                          │                          │
+│rency: "Hryvnia",region: "│                          │                          │
+│Eastern Europe",population│                          │                          │
+│: 41000000})              │                          │                          │
+├──────────────────────────┼──────────────────────────┼──────────────────────────┤
+│(:Organization {name: "NAT│[:PASSES_ON_DIRECT_INTERVE│(:Military {domestic: "Rus│
+│O"})                      │NTION]                    │sia",sea_systems: true,imp│
+│                          │                          │ortedFrom: "Iran, North Ko│
+│                          │                          │rea",land_systems: true,na│
+│                          │                          │me: "Russian Weapons",miss│
+│                          │                          │ile_systems: true,air_syst│
+│                          │                          │ems: true,artillery: true}│
+│                          │                          │)                         │
+└──────────────────────────┴──────────────────────────┴──────────────────────────┘

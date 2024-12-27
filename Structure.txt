@@ -1,0 +1,895 @@
+╒══════════════════════╤═════════╕
+│NodeLabels            │NodeCount│
+╞══════════════════════╪═════════╡
+│["Event"]             │4        │
+├──────────────────────┼─────────┤
+│["Person"]            │3        │
+├──────────────────────┼─────────┤
+│["Concept"]           │1        │
+├──────────────────────┼─────────┤
+│["Resources"]         │17       │
+├──────────────────────┼─────────┤
+│["Geographical_Space"]│7        │
+├──────────────────────┼─────────┤
+│["Military"]          │4        │
+├──────────────────────┼─────────┤
+│["Region"]            │2        │
+├──────────────────────┼─────────┤
+│["Organization"]      │3        │
+├──────────────────────┼─────────┤
+│["Objective"]         │3        │
+├──────────────────────┼─────────┤
+│["Ontology"]          │1        │
+├──────────────────────┼─────────┤
+│["Agency"]            │1        │
+├──────────────────────┼─────────┤
+│["Country"]           │3        │
+├──────────────────────┼─────────┤
+│["Technology"]        │1        │
+├──────────────────────┼─────────┤
+│["Economic_Feature"]  │1        │
+├──────────────────────┼─────────┤
+│["Government"]        │1        │
+└──────────────────────┴─────────┘
+
+╒═══════════════════════════════╤═════════════════╕
+│RelationshipTypes              │RelationshipCount│
+╞═══════════════════════════════╪═════════════════╡
+│"MOBILIZED"                    │1                │
+├───────────────────────────────┼─────────────────┤
+│"LEADS"                        │1                │
+├───────────────────────────────┼─────────────────┤
+│"ISSUES_COMMAND_TO"            │2                │
+├───────────────────────────────┼─────────────────┤
+│"FIGHTS_FOR"                   │1                │
+├───────────────────────────────┼─────────────────┤
+│"OCCURRED_AT"                  │1                │
+├───────────────────────────────┼─────────────────┤
+│"CONTROLS"                     │1                │
+├───────────────────────────────┼─────────────────┤
+│"INFLUENCES"                   │1                │
+├───────────────────────────────┼─────────────────┤
+│"HAS_RESOURCE"                 │19               │
+├───────────────────────────────┼─────────────────┤
+│"HAS_EXPORT_PARTNER"           │1                │
+├───────────────────────────────┼─────────────────┤
+│"FACES"                        │1                │
+├───────────────────────────────┼─────────────────┤
+│"PRODUCES"                     │2                │
+├───────────────────────────────┼─────────────────┤
+│"PERCEIVES_AS_HISTORICAL_LANDS"│1                │
+├───────────────────────────────┼─────────────────┤
+│"STARTED_WAR"                  │1                │
+├───────────────────────────────┼─────────────────┤
+│"CONSIDERS_USE_OF"             │1                │
+├───────────────────────────────┼─────────────────┤
+│"FACES_GEOPOLITICAL_CHALLENGE" │1                │
+├───────────────────────────────┼─────────────────┤
+│"PERCEIVES_WEAKNESS_IN"        │1                │
+├───────────────────────────────┼─────────────────┤
+│"PERCEIVES_THREAT_FROM"        │1                │
+├───────────────────────────────┼─────────────────┤
+│"DEPLOYED"                     │1                │
+├───────────────────────────────┼─────────────────┤
+│"SEEKS_NEUTRALITY_OF"          │1                │
+├───────────────────────────────┼─────────────────┤
+│"FACES_BORDER_CHALLENGE"       │3                │
+├───────────────────────────────┼─────────────────┤
+│"SEEKS_OBJECTIVE"              │3                │
+├───────────────────────────────┼─────────────────┤
+│"IS_PART_OF"                   │3                │
+├───────────────────────────────┼─────────────────┤
+│"FACES_PRESSURE_FROM"          │1                │
+├───────────────────────────────┼─────────────────┤
+│"FACES_INTERNAL_PROBLEM"       │1                │
+├───────────────────────────────┼─────────────────┤
+│"HAS"                          │1                │
+├───────────────────────────────┼─────────────────┤
+│"PREPARES_FOR"                 │1                │
+├───────────────────────────────┼─────────────────┤
+│"SIGNED_AGREEMENT_WITH"        │1                │
+├───────────────────────────────┼─────────────────┤
+│"FACES_BARRIER_FROM"           │1                │
+├───────────────────────────────┼─────────────────┤
+│"HAS_NUCLEAR_REACTORS"         │1                │
+├───────────────────────────────┼─────────────────┤
+│"RELIES_ON"                    │2                │
+├───────────────────────────────┼─────────────────┤
+│"LED_BY"                       │1                │
+├───────────────────────────────┼─────────────────┤
+│"SEEKING_MEMBERSHIP"           │1                │
+├───────────────────────────────┼─────────────────┤
+│"PROTESTED_IN"                 │1                │
+├───────────────────────────────┼─────────────────┤
+│"PARTICIPATED_IN"              │1                │
+├───────────────────────────────┼─────────────────┤
+│"INVOLVED_IN"                  │1                │
+├───────────────────────────────┼─────────────────┤
+│"INCLUDES"                     │2                │
+├───────────────────────────────┼─────────────────┤
+│"ANNEXED"                      │1                │
+├───────────────────────────────┼─────────────────┤
+│"TARGETED_AT"                  │1                │
+├───────────────────────────────┼─────────────────┤
+│"POSSESSES"                    │1                │
+├───────────────────────────────┼─────────────────┤
+│"HAS_IMPORT_PARTNER"           │1                │
+├───────────────────────────────┼─────────────────┤
+│"PASSES_ON_DIRECT_INTERVENTION"│1                │
+├───────────────────────────────┼─────────────────┤
+│"LAUNCHED_WAR_ON"              │1                │
+├───────────────────────────────┼─────────────────┤
+│"POSSESSES_NUCLEAR_ARMS"       │1                │
+├───────────────────────────────┼─────────────────┤
+│"MOVED_TO"                     │1                │
+└───────────────────────────────┴─────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│GeographicalSpace Nodes                                               │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:GeographicalSpace {total_area: "10,000,000 km²",population_density: │
+│"Low to Medium",name: "Eurasian Flatlands",major_water_bodies: ["Dniep│
+│er River", "Volga River", "Ural River"]})                             │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "20,000,000 km²",population_density: │
+│"Medium to High",name: "Rimland",major_water_bodies: ["Pacific Ocean",│
+│ "South China Sea", "Indian Ocean"]})                                 │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "200,000 km²",population_density: "Lo│
+│w",name: "Carpathian Mountains",major_water_bodies: ["Tisza River"]}) │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {total_area: "440,000 km²",population_density: "Lo│
+│w to Medium",name: "Caucasus",major_water_bodies: ["Kura River", "Casp│
+│ian Sea"]})                                                           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {role: "Provides military protection for part of t│
+│he year",name: "Arctic Ocean",location: "North of Russia"})           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {role: "Crucial for Ukraine's access to internatio│
+│nal sea lanes",name: "Turkish Straits",location: "Between Ukraine and │
+│international trade routes"})                                         │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {name: "Discontinuous Borders"})                  │
+├──────────────────────────────────────────────────────────────────────┤
+│(:GeographicalSpace {name: "Discontinuous Borders"})                  │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Country node                                                          │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Country {official_language: "Russian",capital: "Moscow",government_t│
+│ype: "Federal",name: "Russia",cause: "Aging Population",currency: "Rub│
+│le",region: "Eastern Europe, Asia",population: 144000000,example: "Cri│
+│mean Dispute"})                                                       │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Country {official_language: "Mandarin",capital: "Beijing",government│
+│_type: "Socialist Republic",name: "China",currency: "Renminbi (Yuan)",│
+│source: "Industrial Activity",region: "East Asia",population: 14000000│
+│00})                                                                  │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Country {official_language: "Ukrainian",capital: "Kyiv",government_t│
+│ype: "Unitary",name: "Ukraine",currency: "Hryvnia",region: "Eastern Eu│
+│rope",population: 41000000})                                          │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒═════════════════════════════════════════╕
+│Ressources nodes                         │
+╞═════════════════════════════════════════╡
+│(:Resource {name: "Oil"})                │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Coal"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Strategic Minerals"}) │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Rare Earths"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Sugar Beets"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Wheat"})              │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Freshwater Reserves"})│
+├─────────────────────────────────────────┤
+│(:Resource {name: "Arable Land"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Grain (Wheat, Corn)"})│
+├─────────────────────────────────────────┤
+│(:Resource {name: "Iron Ore"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Manganese"})          │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Natural Gas"})        │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Salt"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Sulfur"})             │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Graphite"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Titanium"})           │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Nickel"})             │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Mercury"})            │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Gold"})               │
+├─────────────────────────────────────────┤
+│(:Resource {name: "Timber"})             │
+└─────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Infrastructure Nodes                                                  │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Infrastructure {name: "Railways and Roads",description: "Well-develo│
+│ ped, increases accessibility"})                                      │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Military Nodes                                                        │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:Military {sea_systems: true,land_systems: true,name: "Russian Milita│
+│ry",missile_systems: true,air_systems: true,artillery: true})         │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_systems: true,importedFrom: "Iran, │
+│North Korea",land_systems: true,name: "Russian Weapons",missile_system│
+│s: true,air_systems: true,artillery: true})                           │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Domestically Produced Weapons"})                   │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Imported Weapons"})                                │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Ukrainian Military"})                              │
+├──────────────────────────────────────────────────────────────────────┤
+│(:Military {name: "Russian Military Forces"})                         │
+└──────────────────────────────────────────────────────────────────────┘
+
+╒════════════════════════════════════════════════════╕
+│Technology Nodes                                    │
+╞════════════════════════════════════════════════════╡
+│(:Technology {name: "Operational Nuclear Reactors"})│
+├────────────────────────────────────────────────────┤
+
+╒══════════════════════════════════════════════════════════════════════╕
+│Economic Feature nodes                                                │
+╞══════════════════════════════════════════════════════════════════════╡
+│(:EconomicFeature {role: "Global trade routes accessible via Turkish S│
+│traits",name: "International Trade Sea Lanes"})                       │
+└──────────────────────────────────────────────────────────────────────┘
+
+
+╒═════════════════════════════════════════════╕
+│Organization nodes                           │
+╞═════════════════════════════════════════════╡
+│(:Organization {name: "UN Security Council"})│
+├─────────────────────────────────────────────┤
+│(:Organization {name: "EU"})                 │
+├─────────────────────────────────────────────┤
+│(:Organization {name: "NATO"})               │
+└─────────────────────────────────────────────┘
+
+
+╒══════════════════════════════════════════╕
+│Concept Nodes                             │
+╞══════════════════════════════════════════╡
+│(:Concept {name: "Ukrainian Sovereignty"})│
+└──────────────────────────────────────────┘
+
+
+╒════════════════════════════════════════╕
+│Event Nodes                             │
+╞════════════════════════════════════════╡
+│(:Event {name: "Donbass War"})          │
+├────────────────────────────────────────┤
+│(:Event {name: "Bucharest Summit 2008"})│
+├────────────────────────────────────────┤
+│(:Event {name: "Euromaidan Protests"})  │
+├────────────────────────────────────────┤
+│(:Event {name: "Donbass War"})          │
+├────────────────────────────────────────┤
+│(:Event {name: "Intensified Combat"})   │
+└────────────────────────────────────────┘
+
+╒══════════════════════════════════════╕
+│Person Nodes                          │
+╞══════════════════════════════════════╡
+│(:Person {name: "Viktor Yanukovych"}) │
+├──────────────────────────────────────┤
+│(:Person {name: "Vladimir Putin"})    │
+├──────────────────────────────────────┤
+│(:Person {name: "Volodymyr Zelensky"})│
+└──────────────────────────────────────┘
+
+
+╒══════════════════════════╕
+│Region Nodes              │
+╞══════════════════════════╡
+│(:Region {name: "Crimea"})│
+├──────────────────────────┤
+│(:Region {name: "West"})  │
+└──────────────────────────┘
+
+╒══════════════════════════════════════════╕
+│Government nodes                          │
+╞══════════════════════════════════════════╡
+│(:Government {name: "Russian Government"})│
+└──────────────────────────────────────────┘
+
+╒════════════════════════════════════════╕
+│Agency Nodes                            │
+╞════════════════════════════════════════╡
+│(:Agency {name: "Russian Intelligence"})│
+└────────────────────────────────────────┘
+
+╒════════════════════════════════════════════════════════╕
+│Objective  Nodes                                        │
+╞════════════════════════════════════════════════════════╡
+│(:Objective {name: "Buffer-State Status for Ukraine"})  │
+├────────────────────────────────────────────────────────┤
+│(:Objective {name: "Total Victory Over Ukraine"})       │
+├────────────────────────────────────────────────────────┤
+│(:Objective {name: "Territorial Annexation of Ukraine"})│
+└────────────────────────────────────────────────────────┘
+
+╒═════════════════════════════════════╤═════════════════════════════════════╤═════════════════════════════════════╕
+│n                                    │r                                    │m                                    │
+╞═════════════════════════════════════╪═════════════════════════════════════╪═════════════════════════════════════╡
+│(:Person {name: "Volodymyr_Zelensky",│[:MOBILIZED {uri: "http://www.semanti│(:Country {President: "Zelensky",capi│
+│description: "president of Ukraine",u│cweb.org/geopoliFirst#MOBILIZED"}]   │tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│ri: "http://www.semanticweb.org/geopo│                                     │vnia",name: "Ukrain",Region: "Eastern│
+│liFirst#Volodymyr_Zelensky"})        │                                     │ Europe",Government_Type: "Unitary",A│
+│                                     │                                     │griculture: "Rich Soil",uri: "http://│
+│                                     │                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│                                     │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Volodymyr_Zelensky",│[:LEADS {uri: "http://www.semanticweb│(:Military {name: "Ukrainian_Military│
+│description: "president of Ukraine",u│.org/geopoliFirst#LEADS"}]           │",uri: "http://www.semanticweb.org/ge│
+│ri: "http://www.semanticweb.org/geopo│                                     │opoliFirst#Ukrainian_Military"})     │
+│liFirst#Volodymyr_Zelensky"})        │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Volodymyr_Zelensky",│[:ISSUES_COMMAND_TO {uri: "http://www│(:Military {name: "Ukrainian_Military│
+│description: "president of Ukraine",u│.semanticweb.org/geopoliFirst#ISSUES_│",uri: "http://www.semanticweb.org/ge│
+│ri: "http://www.semanticweb.org/geopo│COMMAND_TO"}]                        │opoliFirst#Ukrainian_Military"})     │
+│liFirst#Volodymyr_Zelensky"})        │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Volodymyr_Zelensky",│[:FIGHTS_FOR {uri: "http://www.semant│(:Concept {name: "Ukrainian_Sovereign│
+│description: "president of Ukraine",u│icweb.org/geopoliFirst#FIGHTS_FOR"}] │ty",uri: "http://www.semanticweb.org/│
+│ri: "http://www.semanticweb.org/geopo│                                     │geopoliFirst#Ukrainian_Sovereignty"})│
+│liFirst#Volodymyr_Zelensky"})        │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Event {name: "Bucharest_Summit_2008│[:OCCURRED_AT {uri: "http://www.seman│(:Organization {name: "NATO",uri: "ht│
+│",uri: "http://www.semanticweb.org/ge│ticweb.org/geopoliFirst#OCCURRED_AT"}│tp://www.semanticweb.org/geopoliFirst│
+│opoliFirst#Bucharest_Summit_2008"})  │]                                    │#NATO"})                             │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Vladimir_Putin",desc│[:ISSUES_COMMAND_TO {uri: "http://www│(:Military {sea_systems: "true",land_│
+│ription: "president of Russia",uri: "│.semanticweb.org/geopoliFirst#ISSUES_│systems: "true",name: "Russian_Milita│
+│http://www.semanticweb.org/geopoliFir│COMMAND_TO"}]                        │ry",missile_systems: "true",uri: "htt│
+│st#Vladimir_Putin"})                 │                                     │p://www.semanticweb.org/geopoliFirst#│
+│                                     │                                     │Russian_Military",air_systems: "true"│
+│                                     │                                     │,artillery: "true"})                 │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Vladimir_Putin",desc│[:CONTROLS {uri: "http://www.semantic│(:Government {name: "Russian_Governme│
+│ription: "president of Russia",uri: "│web.org/geopoliFirst/CONTROLS"}]     │nt",uri: "http://www.semanticweb.org/│
+│http://www.semanticweb.org/geopoliFir│                                     │geopoliFirst#Russian_Government"})   │
+│st#Vladimir_Putin"})                 │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Person {name: "Vladimir_Putin",desc│[:INFLUENCES {uri: "http://www.semant│(:Agency {name: "Russian_Intelligence│
+│ription: "president of Russia",uri: "│icweb.org/geopoliFirst#INFLUENCES"}] │",uri: "http://www.semanticweb.org/ge│
+│http://www.semanticweb.org/geopoliFir│                                     │opoliFirst#Russian_Intelligence"})   │
+│st#Vladimir_Putin"})                 │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Timber",uri: "htt│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│p://www.semanticweb.org/geopoliFirst#│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │Timber"})                            │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Oil",uri: "http:/│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│/www.semanticweb.org/geopoliFirst#Oil│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │"})                                  │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Coal",uri: "http:│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│//www.semanticweb.org/geopoliFirst#Co│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │al"})                                │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Freshwater_Reserv│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│es",uri: "http://www.semanticweb.org/│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │geopoliFirst#Freshwater_Reserves"})  │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Gas",uri: "http:/│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│/www.semanticweb.org/geopoliFirst#Gas│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │"})                                  │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Strategic_Mineral│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│nticweb.org/geopoliFirst#HAS_RESOURCE│s",uri: "http://www.semanticweb.org/g│
+│es",Currency: "Ruble",name: "Russia",│"}]                                  │eopoliFirst#Strategic_Minerals"})    │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS_EXPORT_PARTNER {uri: "http://ww│(:Country {capital: "Beijing",Currenc│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│w.semanticweb.org/geopoliFirst#HAS_EX│y: "1400000000",name: "China",Region:│
+│es",Currency: "Ruble",name: "Russia",│PORT_PARTNER"}]                      │ "East Asia",Government_Type: "Social│
+│Region: "Eastern Europe, Asia",Govern│                                     │ist Republic",uri: "http://www.semant│
+│ment_Type: "Federal",uri: "http://www│                                     │icweb.org/geopoliFirst#China"})      │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:FACES {uri: "http://www.semanticweb│(:Military {sea_systems: "true",land_│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│.org/geopoliFirst#FACES"}]           │systems: "true",name: "Russian_Milita│
+│es",Currency: "Ruble",name: "Russia",│                                     │ry",missile_systems: "true",uri: "htt│
+│Region: "Eastern Europe, Asia",Govern│                                     │p://www.semanticweb.org/geopoliFirst#│
+│ment_Type: "Federal",uri: "http://www│                                     │Russian_Military",air_systems: "true"│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │,artillery: "true"})                 │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:PRODUCES {uri: "http://www.semantic│(:Resources {name: "Sugar_Beets",uri:│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│web.org/geopoliFirst#PRODUCES"}]     │ "http://www.semanticweb.org/geopoliF│
+│es",Currency: "Ruble",name: "Russia",│                                     │irst#Sugar_Beets"})                  │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:PRODUCES {uri: "http://www.semantic│(:Resources {name: "wheat",uri: "http│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│web.org/geopoliFirst#PRODUCES"}]     │://www.semanticweb.org/geopoliFirst#w│
+│es",Currency: "Ruble",name: "Russia",│                                     │heat"})                              │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:PERCEIVES_AS_HISTORICAL_LANDS {uri:│(:Country {President: "Zelensky",capi│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│ "http://www.semanticweb.org/geopoliF│tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│es",Currency: "Ruble",name: "Russia",│irst#PERCEIVES_AS_HISTORICAL_LANDS"}]│vnia",name: "Ukrain",Region: "Eastern│
+│Region: "Eastern Europe, Asia",Govern│                                     │ Europe",Government_Type: "Unitary",A│
+│ment_Type: "Federal",uri: "http://www│                                     │griculture: "Rich Soil",uri: "http://│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│,population: "144 million"})         │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:STARTED_WAR {uri: "http://www.seman│(:Country {President: "Zelensky",capi│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│ticweb.org/geopoliFirst#STARTED_WAR"}│tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│es",Currency: "Ruble",name: "Russia",│]                                    │vnia",name: "Ukrain",Region: "Eastern│
+│Region: "Eastern Europe, Asia",Govern│                                     │ Europe",Government_Type: "Unitary",A│
+│ment_Type: "Federal",uri: "http://www│                                     │griculture: "Rich Soil",uri: "http://│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│,population: "144 million"})         │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:CONSIDERS_USE_OF {uri: "http://www.│(:Military {domestic: "Russia",sea_sy│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│semanticweb.org/geopoliFirst#CONSIDER│stems: "true",name: "Russian_Weapons"│
+│es",Currency: "Ruble",name: "Russia",│S_USE_OF"}]                          │,imported_From: "Iran, North Korea",m│
+│Region: "Eastern Europe, Asia",Govern│                                     │issile_systems: "true",uri: "http://w│
+│ment_Type: "Federal",uri: "http://www│                                     │ww.semanticweb.org/geopoliFirst#Russi│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │an_Weapons",air_systems: "true",artil│
+│,population: "144 million"})         │                                     │lery: "true"})                       │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:FACES_GEOPOLITICAL_CHALLENGE {uri: │(:Geographical_Space {Population_dens│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│"http://www.semanticweb.org/geopoliFi│ity: "Low to medium (varies by subreg│
+│es",Currency: "Ruble",name: "Russia",│rst#FACES_GEOPOLITICAL_CHALLENGE"}]  │ion).",Major_rivers_and_water_bodies:│
+│Region: "Eastern Europe, Asia",Govern│                                     │ "Dnieper River, Volga River, Ural Ri│
+│ment_Type: "Federal",uri: "http://www│                                     │ver",Total_Area: "Approximately 10,00│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │0,000 km² (estimate)",name: "Eurasian│
+│,population: "144 million"})         │                                     │_Flatlands",uri: "http://www.semantic│
+│                                     │                                     │web.org/geopoliFirst#Eurasian_Flatlan│
+│                                     │                                     │ds"})                                │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:PERCEIVES_WEAKNESS_IN {uri: "http:/│(:Region {name: "West",uri: "http://w│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│/www.semanticweb.org/geopoliFirst#PER│ww.semanticweb.org/geopoliFirst#West"│
+│es",Currency: "Ruble",name: "Russia",│CEIVES_WEAKNESS_IN"}]                │})                                   │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:PERCEIVES_THREAT_FROM {uri: "http:/│(:Organization {name: "NATO",uri: "ht│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│/www.semanticweb.org/geopoliFirst#PER│tp://www.semanticweb.org/geopoliFirst│
+│es",Currency: "Ruble",name: "Russia",│CEIVES_THREAT_FROM"}]                │#NATO"})                             │
+│Region: "Eastern Europe, Asia",Govern│                                     │                                     │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:DEPLOYED {uri: "http://www.semantic│(:Country {President: "Zelensky",capi│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│web.org/geopoliFirst#DEPLOYED"}]     │tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│es",Currency: "Ruble",name: "Russia",│                                     │vnia",name: "Ukrain",Region: "Eastern│
+│Region: "Eastern Europe, Asia",Govern│                                     │ Europe",Government_Type: "Unitary",A│
+│ment_Type: "Federal",uri: "http://www│                                     │griculture: "Rich Soil",uri: "http://│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│,population: "144 million"})         │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:SEEKS_NEUTRALITY_OF {uri: "http://w│(:Country {President: "Zelensky",capi│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│ww.semanticweb.org/geopoliFirst#SEEKS│tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│es",Currency: "Ruble",name: "Russia",│_NEUTRALITY_OF"}]                    │vnia",name: "Ukrain",Region: "Eastern│
+│Region: "Eastern Europe, Asia",Govern│                                     │ Europe",Government_Type: "Unitary",A│
+│ment_Type: "Federal",uri: "http://www│                                     │griculture: "Rich Soil",uri: "http://│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│,population: "144 million"})         │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:FACES_BORDER_CHALLENGE {uri: "http:│(:Geographical_Space {name: "Disconti│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│//www.semanticweb.org/geopoliFirst#FA│nuous_Borders",uri: "http://www.seman│
+│es",Currency: "Ruble",name: "Russia",│CES_BORDER_CHALLENGE"}]              │ticweb.org/geopoliFirst#Discontinuous│
+│Region: "Eastern Europe, Asia",Govern│                                     │_Borders"})                          │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:SEEKS_OBJECTIVE {uri: "http://www.s│(:Objective {name: "Buffer_State_Stat│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│emanticweb.org/geopoliFirst#SEEKS_OBJ│us_for_Ukraine",uri: "http://www.sema│
+│es",Currency: "Ruble",name: "Russia",│ECTIVE"}]                            │nticweb.org/geopoliFirst#Buffer-State│
+│Region: "Eastern Europe, Asia",Govern│                                     │_Status_for_Ukraine"})               │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:SEEKS_OBJECTIVE {uri: "http://www.s│(:Objective {name: "Territorial_Annex│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│emanticweb.org/geopoliFirst#SEEKS_OBJ│ation_of_Ukraine",uri: "http://www.se│
+│es",Currency: "Ruble",name: "Russia",│ECTIVE"}]                            │manticweb.org/geopoliFirst#Territoria│
+│Region: "Eastern Europe, Asia",Govern│                                     │l_Annexation_of_Ukraine"})           │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:SEEKS_OBJECTIVE {uri: "http://www.s│(:Objective {name: "Total_Victory_Ove│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│emanticweb.org/geopoliFirst#SEEKS_OBJ│r_Ukraine",uri: "http://www.semanticw│
+│es",Currency: "Ruble",name: "Russia",│ECTIVE"}]                            │eb.org/geopoliFirst#Total_Victory_Ove│
+│Region: "Eastern Europe, Asia",Govern│                                     │r_Ukraine"})                         │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:IS_PART_OF {uri: "http://www.semant│(:Organization {name: "UN_Security_Co│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│icweb.org/geopoliFirst#IS_PART_OF"}] │uncil",uri: "http://www.semanticweb.o│
+│es",Currency: "Ruble",name: "Russia",│                                     │rg/geopoliFirst#UN_Security_Council"}│
+│Region: "Eastern Europe, Asia",Govern│                                     │)                                    │
+│ment_Type: "Federal",uri: "http://www│                                     │                                     │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:FACES_PRESSURE_FROM {uri: "http://w│(:Geographical_Space {Population_dens│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│ww.semanticweb.org/geopoliFirst#FACES│ity: "Medium to high in urban centers│
+│es",Currency: "Ruble",name: "Russia",│_PRESSURE_FROM"}]                    │.",Major_rivers_and_water_bodies: "Pa│
+│Region: "Eastern Europe, Asia",Govern│                                     │cific Ocean, South China Sea, Indian │
+│ment_Type: "Federal",uri: "http://www│                                     │Ocean.",Total_Area: "Approximately 20│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │,000,000 km² (spanning multiple count│
+│,population: "144 million"})         │                                     │ries).",name: "Rimland",uri: "http://│
+│                                     │                                     │www.semanticweb.org/geopoliFirst#Riml│
+│                                     │                                     │and"})                               │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:FACES_INTERNAL_PROBLEM {uri: "http:│(:Geographical_Space {Population_dens│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│//www.semanticweb.org/geopoliFirst#FA│ity: "Low to medium",Major_rivers_and│
+│es",Currency: "Ruble",name: "Russia",│CES_INTERNAL_PROBLEM"}]              │_water_bodies: "Kura River, Caspian S│
+│Region: "Eastern Europe, Asia",Govern│                                     │ea.",Total_Area: "Approximately 440,0│
+│ment_Type: "Federal",uri: "http://www│                                     │00 km² (estimate).",name: "Caucasus",│
+│.semanticweb.org/geopoliFirst#Russia"│                                     │uri: "http://www.semanticweb.org/geop│
+│,population: "144 million"})         │                                     │oliFirst#Caucasus"})                 │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Putin",capital│[:HAS {uri: "http://www.semanticweb.o│(:Geographical_Space {name: "Arctic_O│
+│: "Moscow",gdp: "3.6",UN_Security: "Y│rg/geopoliFirst/HAS"}]               │cean",description: "Provides military│
+│es",Currency: "Ruble",name: "Russia",│                                     │ protection",uri: "http://www.semanti│
+│Region: "Eastern Europe, Asia",Govern│                                     │cweb.org/geopoliFirst#Arctic_Ocean",L│
+│ment_Type: "Federal",uri: "http://www│                                     │ocation: "North of Russia"})         │
+│.semanticweb.org/geopoliFirst#Russia"│                                     │                                     │
+│,population: "144 million"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Timber",uri: "htt│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│p://www.semanticweb.org/geopoliFirst#│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │Timber"})                            │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Titanium",uri: "h│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│ttp://www.semanticweb.org/geopoliFirs│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │t#Titanium"})                        │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Nickel",uri: "htt│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│p://www.semanticweb.org/geopoliFirst#│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │Nickel"})                            │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Oil",uri: "http:/│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│/www.semanticweb.org/geopoliFirst#Oil│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │"})                                  │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Salt",uri: "http:│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│//www.semanticweb.org/geopoliFirst#Sa│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │lt"})                                │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Sulfur",uri: "htt│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│p://www.semanticweb.org/geopoliFirst#│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │Sulfur"})                            │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Arable_Land",uri:│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│ "http://www.semanticweb.org/geopoliF│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │irst#Arable_Land"})                  │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Grain_Corn",uri: │
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│"http://www.semanticweb.org/geopoliFi│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │rst#Grain_Corn"})                    │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Iron_Ore",uri: "h│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│ttp://www.semanticweb.org/geopoliFirs│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │t#Iron_Ore"})                        │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Coal",uri: "http:│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│//www.semanticweb.org/geopoliFirst#Co│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │al"})                                │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Mercury",uri: "ht│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│tp://www.semanticweb.org/geopoliFirst│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │#Mercury"})                          │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Gas",uri: "http:/│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│/www.semanticweb.org/geopoliFirst#Gas│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │"})                                  │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_RESOURCE {uri: "http://www.sema│(:Resources {name: "Gold",uri: "http:│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#HAS_RESOURCE│//www.semanticweb.org/geopoliFirst#Go│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │ld"})                                │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:PREPARES_FOR {uri: "http://www.sema│(:Event {name: "Intensified_Combat",u│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#PREPARES_FOR│ri: "http://www.semanticweb.org/geopo│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │liFirst#Intensified_Combat"})        │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:SIGNED_AGREEMENT_WITH {uri: "http:/│(:Organization {name: "EU",uri: "http│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│/www.semanticweb.org/geopoliFirst#SIG│://www.semanticweb.org/geopoliFirst#E│
+│vnia",name: "Ukrain",Region: "Eastern│NED_AGREEMENT_WITH"}]                │U"})                                 │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:FACES_BARRIER_FROM {uri: "http://ww│(:Geographical_Space {Population_dens│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│w.semanticweb.org/geopoliFirst#FACES_│ity: "Low (sparsely populated).",Majo│
+│vnia",name: "Ukrain",Region: "Eastern│BARRIER_FROM"}]                      │r_rivers_and_water_bodies: "Tisza Riv│
+│ Europe",Government_Type: "Unitary",A│                                     │er",Total_Area: "Approximately 200,00│
+│griculture: "Rich Soil",uri: "http://│                                     │0 km² (range)",name: "Carpathian_Moun│
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │tains",uri: "http://www.semanticweb.o│
+│in",population: "41000000"})         │                                     │rg/geopoliFirst#Carpathian_Mountains"│
+│                                     │                                     │})                                   │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:HAS_NUCLEAR_REACTORS {uri: "http://│(:Technology {name: "Operational_Nucl│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│www.semanticweb.org/geopoliFirst#HAS_│ear_Reactors",uri: "http://www.semant│
+│vnia",name: "Ukrain",Region: "Eastern│NUCLEAR_REACTORS"}]                  │icweb.org/geopoliFirst#Operational_Nu│
+│ Europe",Government_Type: "Unitary",A│                                     │clear_Reactors"})                    │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:RELIES_ON {uri: "http://www.semanti│(:Geographical_Space {name: "Turkish_│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│cweb.org/geopoliFirst#RELIES_ON"}]   │Straits",description: "Crucial for Uk│
+│vnia",name: "Ukrain",Region: "Eastern│                                     │raine's access to international sea l│
+│ Europe",Government_Type: "Unitary",A│                                     │anes",uri: "http://www.semanticweb.or│
+│griculture: "Rich Soil",uri: "http://│                                     │g/geopoliFirst#Turkish_Straits",Locat│
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │ion: "Between Ukraine and internation│
+│in",population: "41000000"})         │                                     │al trade routes"})                   │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:RELIES_ON {uri: "http://www.semanti│(:Economic_Feature {name: "Internatio│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│cweb.org/geopoliFirst#RELIES_ON"}]   │nal_Trade_Sea_Lanes",description: "Gl│
+│vnia",name: "Ukrain",Region: "Eastern│                                     │obal trade routes accessible via Turk│
+│ Europe",Government_Type: "Unitary",A│                                     │ish Straits",uri: "http://www.semanti│
+│griculture: "Rich Soil",uri: "http://│                                     │cweb.org/geopoliFirst#International_T│
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │rade_Sea_Lanes"})                    │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:FACES_BORDER_CHALLENGE {uri: "http:│(:Geographical_Space {name: "Disconti│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│//www.semanticweb.org/geopoliFirst#FA│nuous_Borders",uri: "http://www.seman│
+│vnia",name: "Ukrain",Region: "Eastern│CES_BORDER_CHALLENGE"}]              │ticweb.org/geopoliFirst#Discontinuous│
+│ Europe",Government_Type: "Unitary",A│                                     │_Borders"})                          │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:LED_BY {uri: "http://www.semanticwe│(:Person {name: "Viktor_Yanukovych",u│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│b.org/geopoliFirst#LED_BY"}]         │ri: "http://www.semanticweb.org/geopo│
+│vnia",name: "Ukrain",Region: "Eastern│                                     │liFirst#Viktor_Yanukovych"})         │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:IS_PART_OF {uri: "http://www.semant│(:Organization {name: "NATO",uri: "ht│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│icweb.org/geopoliFirst#IS_PART_OF"}] │tp://www.semanticweb.org/geopoliFirst│
+│vnia",name: "Ukrain",Region: "Eastern│                                     │#NATO"})                             │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:SEEKING_MEMBERSHIP {uri: "http://ww│(:Organization {name: "NATO",uri: "ht│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│w.semanticweb.org/geopoliFirst#SEEKIN│tp://www.semanticweb.org/geopoliFirst│
+│vnia",name: "Ukrain",Region: "Eastern│G_MEMBERSHIP"}]                      │#NATO"})                             │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:PROTESTED_IN {uri: "http://www.sema│(:Event {name: "Euromaidan_Protests",│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│nticweb.org/geopoliFirst#PROTESTED_IN│uri: "http://www.semanticweb.org/geop│
+│vnia",name: "Ukrain",Region: "Eastern│"}]                                  │oliFirst#Euromaidan_Protests"})      │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Country {President: "Zelensky",capi│[:PARTICIPATED_IN {uri: "http://www.s│(:Event {name: "Donbass_War",uri: "ht│
+│tal: "kyiv",gdp: "5.3",Currency: "Hry│emanticweb.org/geopoliFirst#PARTICIPA│tp://www.semanticweb.org/geopoliFirst│
+│vnia",name: "Ukrain",Region: "Eastern│TED_IN"}]                            │#Donbass_War"})                      │
+│ Europe",Government_Type: "Unitary",A│                                     │                                     │
+│griculture: "Rich Soil",uri: "http://│                                     │                                     │
+│www.semanticweb.org/geopoliFirst#Ukra│                                     │                                     │
+│in",population: "41000000"})         │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:INVOLVED_IN {uri: "http://www.seman│(:Event {name: "Donbass_War",uri: "ht│
+│stems: "true",name: "Russian_Weapons"│ticweb.org/geopoliFirst#INVOLVED_IN"}│tp://www.semanticweb.org/geopoliFirst│
+│,imported_From: "Iran, North Korea",m│]                                    │#Donbass_War"})                      │
+│issile_systems: "true",uri: "http://w│                                     │                                     │
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │                                     │
+│an_Weapons",air_systems: "true",artil│                                     │                                     │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:INCLUDES {uri: "http://www.semantic│(:Military {name: "Imported_Weapons",│
+│stems: "true",name: "Russian_Weapons"│web.org/geopoliFirst/INCLUDES"}]     │uri: "http://www.semanticweb.org/geop│
+│,imported_From: "Iran, North Korea",m│                                     │oliFirst#Imported_Weapons"})         │
+│issile_systems: "true",uri: "http://w│                                     │                                     │
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │                                     │
+│an_Weapons",air_systems: "true",artil│                                     │                                     │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:ANNEXED {uri: "http://www.semanticw│(:Region {name: "Crimea",uri: "http:/│
+│stems: "true",name: "Russian_Weapons"│eb.org/geopoliFirst#ANNEXED"}]       │/www.semanticweb.org/geopoliFirst#Cri│
+│,imported_From: "Iran, North Korea",m│                                     │mea"})                               │
+│issile_systems: "true",uri: "http://w│                                     │                                     │
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │                                     │
+│an_Weapons",air_systems: "true",artil│                                     │                                     │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:FACES_BORDER_CHALLENGE {uri: "http:│(:Geographical_Space {name: "Disconti│
+│stems: "true",name: "Russian_Weapons"│//www.semanticweb.org/geopoliFirst#FA│nuous_Borders",uri: "http://www.seman│
+│,imported_From: "Iran, North Korea",m│CES_BORDER_CHALLENGE"}]              │ticweb.org/geopoliFirst#Discontinuous│
+│issile_systems: "true",uri: "http://w│                                     │_Borders"})                          │
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │                                     │
+│an_Weapons",air_systems: "true",artil│                                     │                                     │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:TARGETED_AT {uri: "http://www.seman│(:Country {President: "Zelensky",capi│
+│stems: "true",name: "Russian_Weapons"│ticweb.org/geopoliFirst#TARGETED_AT"}│tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│,imported_From: "Iran, North Korea",m│]                                    │vnia",name: "Ukrain",Region: "Eastern│
+│issile_systems: "true",uri: "http://w│                                     │ Europe",Government_Type: "Unitary",A│
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │griculture: "Rich Soil",uri: "http://│
+│an_Weapons",air_systems: "true",artil│                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│lery: "true"})                       │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:POSSESSES {uri: "http://www.semanti│(:Military {sea_systems: "true",land_│
+│stems: "true",name: "Russian_Weapons"│cweb.org/geopoliFirst#POSSESSES"}]   │systems: "true",name: "Russian_Milita│
+│,imported_From: "Iran, North Korea",m│                                     │ry",missile_systems: "true",uri: "htt│
+│issile_systems: "true",uri: "http://w│                                     │p://www.semanticweb.org/geopoliFirst#│
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │Russian_Military",air_systems: "true"│
+│an_Weapons",air_systems: "true",artil│                                     │,artillery: "true"})                 │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {domestic: "Russia",sea_sy│[:HAS_IMPORT_PARTNER {uri: "http://ww│(:Country {capital: "Beijing",Currenc│
+│stems: "true",name: "Russian_Weapons"│w.semanticweb.org/geopoliFirst#HAS_IM│y: "1400000000",name: "China",Region:│
+│,imported_From: "Iran, North Korea",m│PORT_PARTNER"}]                      │ "East Asia",Government_Type: "Social│
+│issile_systems: "true",uri: "http://w│                                     │ist Republic",uri: "http://www.semant│
+│ww.semanticweb.org/geopoliFirst#Russi│                                     │icweb.org/geopoliFirst#China"})      │
+│an_Weapons",air_systems: "true",artil│                                     │                                     │
+│lery: "true"})                       │                                     │                                     │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Organization {name: "NATO",uri: "ht│[:PASSES_ON_DIRECT_INTERVENTION {uri:│(:Military {domestic: "Russia",sea_sy│
+│tp://www.semanticweb.org/geopoliFirst│ "http://www.semanticweb.org/geopoliF│stems: "true",name: "Russian_Weapons"│
+│#NATO"})                             │irst#PASSES_ON_DIRECT_INTERVENTION"}]│,imported_From: "Iran, North Korea",m│
+│                                     │                                     │issile_systems: "true",uri: "http://w│
+│                                     │                                     │ww.semanticweb.org/geopoliFirst#Russi│
+│                                     │                                     │an_Weapons",air_systems: "true",artil│
+│                                     │                                     │lery: "true"})                       │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {sea_systems: "true",land_│[:LAUNCHED_WAR_ON {uri: "http://www.s│(:Country {President: "Zelensky",capi│
+│systems: "true",name: "Russian_Milita│emanticweb.org/geopoliFirst#LAUNCHED_│tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│ry",missile_systems: "true",uri: "htt│WAR_ON"}]                            │vnia",name: "Ukrain",Region: "Eastern│
+│p://www.semanticweb.org/geopoliFirst#│                                     │ Europe",Government_Type: "Unitary",A│
+│Russian_Military",air_systems: "true"│                                     │griculture: "Rich Soil",uri: "http://│
+│,artillery: "true"})                 │                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│                                     │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {sea_systems: "true",land_│[:POSSESSES_NUCLEAR_ARMS {uri: "http:│(:Military {domestic: "Russia",sea_sy│
+│systems: "true",name: "Russian_Milita│//www.semanticweb.org/geopoliFirst#PO│stems: "true",name: "Russian_Weapons"│
+│ry",missile_systems: "true",uri: "htt│SSESSES_NUCLEAR_ARMS"}]              │,imported_From: "Iran, North Korea",m│
+│p://www.semanticweb.org/geopoliFirst#│                                     │issile_systems: "true",uri: "http://w│
+│Russian_Military",air_systems: "true"│                                     │ww.semanticweb.org/geopoliFirst#Russi│
+│,artillery: "true"})                 │                                     │an_Weapons",air_systems: "true",artil│
+│                                     │                                     │lery: "true"})                       │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {sea_systems: "true",land_│[:INCLUDES {uri: "http://www.semantic│(:Country {President: "Putin",capital│
+│systems: "true",name: "Russian_Milita│web.org/geopoliFirst/INCLUDES"}]     │: "Moscow",gdp: "3.6",UN_Security: "Y│
+│ry",missile_systems: "true",uri: "htt│                                     │es",Currency: "Ruble",name: "Russia",│
+│p://www.semanticweb.org/geopoliFirst#│                                     │Region: "Eastern Europe, Asia",Govern│
+│Russian_Military",air_systems: "true"│                                     │ment_Type: "Federal",uri: "http://www│
+│,artillery: "true"})                 │                                     │.semanticweb.org/geopoliFirst#Russia"│
+│                                     │                                     │,population: "144 million"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {sea_systems: "true",land_│[:MOVED_TO {uri: "http://www.semantic│(:Country {President: "Zelensky",capi│
+│systems: "true",name: "Russian_Milita│web.org/geopoliFirst#MOVED_TO"}]     │tal: "kyiv",gdp: "5.3",Currency: "Hry│
+│ry",missile_systems: "true",uri: "htt│                                     │vnia",name: "Ukrain",Region: "Eastern│
+│p://www.semanticweb.org/geopoliFirst#│                                     │ Europe",Government_Type: "Unitary",A│
+│Russian_Military",air_systems: "true"│                                     │griculture: "Rich Soil",uri: "http://│
+│,artillery: "true"})                 │                                     │www.semanticweb.org/geopoliFirst#Ukra│
+│                                     │                                     │in",population: "41000000"})         │
+├─────────────────────────────────────┼─────────────────────────────────────┼─────────────────────────────────────┤
+│(:Military {sea_systems: "true",land_│[:IS_PART_OF {uri: "http://www.semant│(:Country {President: "Putin",capital│
+│systems: "true",name: "Russian_Milita│icweb.org/geopoliFirst#IS_PART_OF"}] │: "Moscow",gdp: "3.6",UN_Security: "Y│
+│ry",missile_systems: "true",uri: "htt│                                     │es",Currency: "Ruble",name: "Russia",│
+│p://www.semanticweb.org/geopoliFirst#│                                     │Region: "Eastern Europe, Asia",Govern│
+│Russian_Military",air_systems: "true"│                                     │ment_Type: "Federal",uri: "http://www│
+│,artillery: "true"})                 │                                     │.semanticweb.org/geopoliFirst#Russia"│
+│                                     │                                     │,population: "144 million"})         │
+└─────────────────────────────────────┴─────────────────────────────────────┴─────────────────────────────────────┘

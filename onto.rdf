@@ -1,0 +1,1210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/geopoliFirst/"
+     xml:base="http://www.semanticweb.org/geopoliFirst/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Length="http://www.semanticweb.org/geopoliFirst#Length/"
+     xmlns:geopoliFirst="http://www.semanticweb.org/geopoliFirst#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/geopoliFirst"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#ANNEXED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#ANNEXED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#CONSIDERS_USE_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#CONSIDERS_USE_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#DEPLOYED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#DEPLOYED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_BARRIER_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_BARRIER_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_BORDER_CHALLENGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_BORDER_CHALLENGE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_GEOPOLITICAL_CHALLENGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_GEOPOLITICAL_CHALLENGE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_INTERNAL_PROBLEM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_INTERNAL_PROBLEM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_PRESSURE_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_PRESSURE_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FACES_PROTECTION_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FACES_PROTECTION_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#FIGHTS_FOR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#FIGHTS_FOR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_EQUIPMENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_EQUIPMENT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_EXPORT_PARTNER -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_EXPORT_PARTNER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_IMPORT_PARTNER -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_IMPORT_PARTNER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_INFRASTRUCTURE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_INFRASTRUCTURE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_NUCLEAR_REACTORS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_NUCLEAR_REACTORS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#HAS_RESOURCE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#HAS_RESOURCE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#INFLUENCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#INFLUENCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#INVOLVED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#INVOLVED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#ISSUES_COMMAND_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#ISSUES_COMMAND_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#IS_PART_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#IS_PART_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#LAUNCHED_WAR_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#LAUNCHED_WAR_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#LEADS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#LEADS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#LED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#LED_BY"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#MOBILIZED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#MOBILIZED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#MOVED_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#MOVED_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#OCCURRED_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#OCCURRED_AT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PARTICIPATED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PARTICIPATED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PASSES_ON_DIRECT_INTERVENTION -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PASSES_ON_DIRECT_INTERVENTION"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PERCEIVES_AS_HISTORICAL_LANDS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PERCEIVES_AS_HISTORICAL_LANDS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PERCEIVES_THREAT_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PERCEIVES_THREAT_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PERCEIVES_WEAKNESS_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PERCEIVES_WEAKNESS_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#POSSESSES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#POSSESSES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#POSSESSES_NUCLEAR_ARMS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#POSSESSES_NUCLEAR_ARMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PREPARES_FOR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PREPARES_FOR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PRODUCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PRODUCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#PROTESTED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#PROTESTED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#RELIES_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#RELIES_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#SEEKING_MEMBERSHIP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#SEEKING_MEMBERSHIP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#SEEKS_NEUTRALITY_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#SEEKS_NEUTRALITY_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#SEEKS_OBJECTIVE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#SEEKS_OBJECTIVE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#SIGNED_AGREEMENT_WITH -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#SIGNED_AGREEMENT_WITH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#STARTED_WAR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#STARTED_WAR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#TARGETED_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#TARGETED_AT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#USED_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst#USED_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst/CONTROLS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst/CONTROLS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst/HAS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst/HAS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst/INCLUDES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/geopoliFirst/INCLUDES"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Active-duty_Personnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Active-duty_Personnel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Agriculture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Agriculture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Barrier_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Barrier_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Cause -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Cause"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Currency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Currency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Defense_Systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Defense_Systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Elevation_Range -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Elevation_Range"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Government_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Government_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Impact -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Major_rivers_and_water_bodies -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Major_rivers_and_water_bodies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Military_Alliances -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Military_Alliances"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Military_Bases -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Military_Bases"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Military_Expenditure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Military_Expenditure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Notable_Features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Notable_Features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Nuclear_Arsenal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Nuclear_Arsenal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Population_density -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Population_density"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#President -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#President"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Reserve_Forces -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Reserve_Forces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Seasonal_Variability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Seasonal_Variability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Total_Area -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Total_Area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#UN_Security -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#UN_Security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#air_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#air_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#artillery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#artillery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#capital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#capital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#domestic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#domestic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#gdp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#gdp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#imported_From -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#imported_From"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#land_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#land_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#missile_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#missile_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#population -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#population"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#sea_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#sea_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Length/Extent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/geopoliFirst#Length/Extent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Economic_Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Economic_Feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Environmental_Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Environmental_Factors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Geographical_Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Government"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Military -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Military"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Objective"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/geopoliFirst#Technology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Arable_Land -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Arable_Land">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Arctic_Ocean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Arctic_Ocean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Location>North of Russia</geopoliFirst:Location>
+        <geopoliFirst:description>Provides military protection</geopoliFirst:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Bucharest_Summit_2008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Bucharest_Summit_2008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Event"/>
+        <geopoliFirst:OCCURRED_AT rdf:resource="http://www.semanticweb.org/geopoliFirst#NATO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Buffer-State_Status_for_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Buffer-State_Status_for_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Carpathian_Mountains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Carpathian_Mountains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Major_rivers_and_water_bodies>Tisza River</geopoliFirst:Major_rivers_and_water_bodies>
+        <geopoliFirst:Population_density>Low (sparsely populated).</geopoliFirst:Population_density>
+        <geopoliFirst:Total_Area>Approximately 200,000 km² (range)</geopoliFirst:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Caucasus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Caucasus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Major_rivers_and_water_bodies>Kura River, Caspian Sea.</geopoliFirst:Major_rivers_and_water_bodies>
+        <geopoliFirst:Population_density>Low to medium</geopoliFirst:Population_density>
+        <geopoliFirst:Total_Area>Approximately 440,000 km² (estimate).</geopoliFirst:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Country"/>
+        <geopoliFirst:Currency>Renminbi (Yuan)</geopoliFirst:Currency>
+        <geopoliFirst:Currency rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1400000000</geopoliFirst:Currency>
+        <geopoliFirst:Government_Type>Socialist Republic</geopoliFirst:Government_Type>
+        <geopoliFirst:Region>East Asia</geopoliFirst:Region>
+        <geopoliFirst:capital>Beijing</geopoliFirst:capital>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Coal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Coal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Crimea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Crimea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Donbass_War -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Donbass_War">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#EU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#EU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Eurasian_Flatlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Eurasian_Flatlands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Major_rivers_and_water_bodies>Dnieper River, Volga River, Ural River</geopoliFirst:Major_rivers_and_water_bodies>
+        <geopoliFirst:Population_density>Low to medium (varies by subregion).</geopoliFirst:Population_density>
+        <geopoliFirst:Total_Area>Approximately 10,000,000 km² (estimate)</geopoliFirst:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Euromaidan_Protests -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Euromaidan_Protests">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Freshwater_Reserves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Freshwater_Reserves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Gas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Gas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Grain_Corn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Grain_Corn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Imported_Weapons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Imported_Weapons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Military"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Intensified_Combat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Intensified_Combat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#International_Trade_Sea_Lanes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#International_Trade_Sea_Lanes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Economic_Feature"/>
+        <geopoliFirst:description>Global trade routes accessible via Turkish Straits</geopoliFirst:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Iron_Ore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Iron_Ore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Mercury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Mercury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#NATO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#NATO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Organization"/>
+        <geopoliFirst:PASSES_ON_DIRECT_INTERVENTION rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Weapons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Nickel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Nickel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Oil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Oil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Operational_Nuclear_Reactors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Operational_Nuclear_Reactors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Rimland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Rimland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Major_rivers_and_water_bodies>Pacific Ocean, South China Sea, Indian Ocean.</geopoliFirst:Major_rivers_and_water_bodies>
+        <geopoliFirst:Population_density>Medium to high in urban centers.</geopoliFirst:Population_density>
+        <geopoliFirst:Total_Area>Approximately 20,000,000 km² (spanning multiple countries).</geopoliFirst:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Russia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Russia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Country"/>
+        <geopoliFirst:CONSIDERS_USE_OF rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Weapons"/>
+        <geopoliFirst:DEPLOYED rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:FACES rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Military"/>
+        <geopoliFirst:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders"/>
+        <geopoliFirst:FACES_GEOPOLITICAL_CHALLENGE rdf:resource="http://www.semanticweb.org/geopoliFirst#Eurasian_Flatlands"/>
+        <geopoliFirst:FACES_INTERNAL_PROBLEM rdf:resource="http://www.semanticweb.org/geopoliFirst#Caucasus"/>
+        <geopoliFirst:FACES_PRESSURE_FROM rdf:resource="http://www.semanticweb.org/geopoliFirst#Rimland"/>
+        <geopoliFirst:HAS_EXPORT_PARTNER rdf:resource="http://www.semanticweb.org/geopoliFirst#China"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Coal"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Freshwater_Reserves"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Gas"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Oil"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Strategic_Minerals"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Timber"/>
+        <geopoliFirst:IS_PART_OF rdf:resource="http://www.semanticweb.org/geopoliFirst#UN_Security_Council"/>
+        <geopoliFirst:PERCEIVES_AS_HISTORICAL_LANDS rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:PERCEIVES_THREAT_FROM rdf:resource="http://www.semanticweb.org/geopoliFirst#NATO"/>
+        <geopoliFirst:PERCEIVES_WEAKNESS_IN rdf:resource="http://www.semanticweb.org/geopoliFirst#West"/>
+        <geopoliFirst:PRODUCES rdf:resource="http://www.semanticweb.org/geopoliFirst#Sugar_Beets"/>
+        <geopoliFirst:PRODUCES rdf:resource="http://www.semanticweb.org/geopoliFirst#wheat"/>
+        <geopoliFirst:SEEKS_NEUTRALITY_OF rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/geopoliFirst#Buffer-State_Status_for_Ukraine"/>
+        <geopoliFirst:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/geopoliFirst#Territorial_Annexation_of_Ukraine"/>
+        <geopoliFirst:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/geopoliFirst#Total_Victory_Over_Ukraine"/>
+        <geopoliFirst:STARTED_WAR rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <HAS rdf:resource="http://www.semanticweb.org/geopoliFirst#Arctic_Ocean"/>
+        <geopoliFirst:Currency>Ruble</geopoliFirst:Currency>
+        <geopoliFirst:Government_Type>Federal</geopoliFirst:Government_Type>
+        <geopoliFirst:President>Putin</geopoliFirst:President>
+        <geopoliFirst:Region>Eastern Europe, Asia</geopoliFirst:Region>
+        <geopoliFirst:UN_Security>Yes</geopoliFirst:UN_Security>
+        <geopoliFirst:capital>Moscow</geopoliFirst:capital>
+        <geopoliFirst:gdp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</geopoliFirst:gdp>
+        <geopoliFirst:population>144 million</geopoliFirst:population>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/geopoliFirst#Russia"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/geopoliFirst#FACES_BORDER_CHALLENGE"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders"/>
+        <rdfs:comment>length: 22407</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/geopoliFirst#Russia"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/geopoliFirst#FACES_INTERNAL_PROBLEM"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/geopoliFirst#Caucasus"/>
+        <rdfs:comment>Internal problem causing resentment</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Russian_Government -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Russian_Government">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Government"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Russian_Intelligence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Russian_Intelligence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Agency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Russian_Military -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Russian_Military">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Military"/>
+        <geopoliFirst:IS_PART_OF rdf:resource="http://www.semanticweb.org/geopoliFirst#Russia"/>
+        <geopoliFirst:LAUNCHED_WAR_ON rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:MOVED_TO rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:POSSESSES_NUCLEAR_ARMS rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Weapons"/>
+        <INCLUDES rdf:resource="http://www.semanticweb.org/geopoliFirst#Russia"/>
+        <geopoliFirst:air_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:air_systems>
+        <geopoliFirst:artillery rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:artillery>
+        <geopoliFirst:land_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:land_systems>
+        <geopoliFirst:missile_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:missile_systems>
+        <geopoliFirst:sea_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:sea_systems>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Russian_Weapons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Russian_Weapons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Military"/>
+        <geopoliFirst:ANNEXED rdf:resource="http://www.semanticweb.org/geopoliFirst#Crimea"/>
+        <geopoliFirst:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders"/>
+        <geopoliFirst:HAS_IMPORT_PARTNER rdf:resource="http://www.semanticweb.org/geopoliFirst#China"/>
+        <geopoliFirst:INVOLVED_IN rdf:resource="http://www.semanticweb.org/geopoliFirst#Donbass_War"/>
+        <geopoliFirst:POSSESSES rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Military"/>
+        <geopoliFirst:TARGETED_AT rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <INCLUDES rdf:resource="http://www.semanticweb.org/geopoliFirst#Imported_Weapons"/>
+        <geopoliFirst:air_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:air_systems>
+        <geopoliFirst:artillery rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:artillery>
+        <geopoliFirst:domestic>Russia</geopoliFirst:domestic>
+        <geopoliFirst:imported_From>Iran, North Korea</geopoliFirst:imported_From>
+        <geopoliFirst:missile_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:missile_systems>
+        <geopoliFirst:sea_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geopoliFirst:sea_systems>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Salt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Salt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Strategic_Minerals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Strategic_Minerals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Sugar_Beets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Sugar_Beets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Sulfur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Sulfur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Territorial_Annexation_of_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Territorial_Annexation_of_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Timber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Timber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Titanium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Titanium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Total_Victory_Over_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Total_Victory_Over_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Turkish_Straits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Turkish_Straits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Geographical_Space"/>
+        <geopoliFirst:Location>Between Ukraine and international trade routes</geopoliFirst:Location>
+        <geopoliFirst:description>Crucial for Ukraine&apos;s access to international sea lanes</geopoliFirst:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#UN_Security_Council -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#UN_Security_Council">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Ukrain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Ukrain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Country"/>
+        <geopoliFirst:FACES_BARRIER_FROM rdf:resource="http://www.semanticweb.org/geopoliFirst#Carpathian_Mountains"/>
+        <geopoliFirst:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders"/>
+        <geopoliFirst:HAS_NUCLEAR_REACTORS rdf:resource="http://www.semanticweb.org/geopoliFirst#Operational_Nuclear_Reactors"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Arable_Land"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Coal"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Gas"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Gold"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Grain_Corn"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Iron_Ore"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Mercury"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Nickel"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Oil"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Salt"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Sulfur"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Timber"/>
+        <geopoliFirst:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/geopoliFirst#Titanium"/>
+        <geopoliFirst:IS_PART_OF rdf:resource="http://www.semanticweb.org/geopoliFirst#NATO"/>
+        <geopoliFirst:LED_BY rdf:resource="http://www.semanticweb.org/geopoliFirst#Viktor_Yanukovych"/>
+        <geopoliFirst:PARTICIPATED_IN rdf:resource="http://www.semanticweb.org/geopoliFirst#Donbass_War"/>
+        <geopoliFirst:PREPARES_FOR rdf:resource="http://www.semanticweb.org/geopoliFirst#Intensified_Combat"/>
+        <geopoliFirst:PROTESTED_IN rdf:resource="http://www.semanticweb.org/geopoliFirst#Euromaidan_Protests"/>
+        <geopoliFirst:RELIES_ON rdf:resource="http://www.semanticweb.org/geopoliFirst#International_Trade_Sea_Lanes"/>
+        <geopoliFirst:RELIES_ON rdf:resource="http://www.semanticweb.org/geopoliFirst#Turkish_Straits"/>
+        <geopoliFirst:SEEKING_MEMBERSHIP rdf:resource="http://www.semanticweb.org/geopoliFirst#NATO"/>
+        <geopoliFirst:SIGNED_AGREEMENT_WITH rdf:resource="http://www.semanticweb.org/geopoliFirst#EU"/>
+        <geopoliFirst:Agriculture>Rich Soil</geopoliFirst:Agriculture>
+        <geopoliFirst:Currency>Hryvnia</geopoliFirst:Currency>
+        <geopoliFirst:Government_Type>Unitary</geopoliFirst:Government_Type>
+        <geopoliFirst:President>Zelensky</geopoliFirst:President>
+        <geopoliFirst:Region>Eastern Europe</geopoliFirst:Region>
+        <geopoliFirst:capital>kyiv</geopoliFirst:capital>
+        <geopoliFirst:gdp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</geopoliFirst:gdp>
+        <geopoliFirst:population rdf:datatype="http://www.w3.org/2001/XMLSchema#long">41000000</geopoliFirst:population>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/geopoliFirst#FACES_BORDER_CHALLENGE"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/geopoliFirst#Discontinuous_Borders"/>
+        <rdfs:comment>length : 5581</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Ukrainian_Military -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Ukrainian_Military">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Military"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Ukrainian_Sovereignty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Ukrainian_Sovereignty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Viktor_Yanukovych -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Viktor_Yanukovych">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Vladimir_Putin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Vladimir_Putin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Person"/>
+        <geopoliFirst:INFLUENCES rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Intelligence"/>
+        <geopoliFirst:ISSUES_COMMAND_TO rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Military"/>
+        <CONTROLS rdf:resource="http://www.semanticweb.org/geopoliFirst#Russian_Government"/>
+        <geopoliFirst:description>president of Russia</geopoliFirst:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#Volodymyr_Zelensky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#Volodymyr_Zelensky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Person"/>
+        <geopoliFirst:FIGHTS_FOR rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrainian_Sovereignty"/>
+        <geopoliFirst:ISSUES_COMMAND_TO rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrainian_Military"/>
+        <geopoliFirst:LEADS rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrainian_Military"/>
+        <geopoliFirst:MOBILIZED rdf:resource="http://www.semanticweb.org/geopoliFirst#Ukrain"/>
+        <geopoliFirst:description>president of Ukraine</geopoliFirst:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#West -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#West">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/geopoliFirst#wheat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/geopoliFirst#wheat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/geopoliFirst#Resources"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

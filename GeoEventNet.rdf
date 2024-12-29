@@ -1,0 +1,1211 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/GeoEventNet/"
+     xml:base="http://www.semanticweb.org/GeoEventNet/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Length="http://www.semanticweb.org/geopoliFirst#Length/"
+     xmlns:GeoEventNet="http://www.semanticweb.org/GeoEventNet#"
+     xmlns:geopoliFirst="http://www.semanticweb.org/geopoliFirst#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/GeoEventNet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#ANNEXED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#ANNEXED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#CONSIDERS_USE_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#CONSIDERS_USE_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#DEPLOYED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#DEPLOYED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_BARRIER_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_BARRIER_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_BORDER_CHALLENGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_BORDER_CHALLENGE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_GEOPOLITICAL_CHALLENGE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_GEOPOLITICAL_CHALLENGE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_INTERNAL_PROBLEM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_INTERNAL_PROBLEM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_PRESSURE_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_PRESSURE_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FACES_PROTECTION_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FACES_PROTECTION_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#FIGHTS_FOR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#FIGHTS_FOR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_EQUIPMENT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_EQUIPMENT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_EXPORT_PARTNER -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_EXPORT_PARTNER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_IMPORT_PARTNER -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_IMPORT_PARTNER"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_INFRASTRUCTURE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_INFRASTRUCTURE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_NUCLEAR_REACTORS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_NUCLEAR_REACTORS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#HAS_RESOURCE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#HAS_RESOURCE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#INFLUENCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#INFLUENCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#INVOLVED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#INVOLVED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#ISSUES_COMMAND_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#ISSUES_COMMAND_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#IS_PART_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#IS_PART_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#LAUNCHED_WAR_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#LAUNCHED_WAR_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#LEADS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#LEADS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#LED_BY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#LED_BY"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#MOBILIZED -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#MOBILIZED"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#MOVED_TO -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#MOVED_TO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#OCCURRED_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#OCCURRED_AT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PARTICIPATED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PARTICIPATED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PASSES_ON_DIRECT_INTERVENTION -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PASSES_ON_DIRECT_INTERVENTION"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PERCEIVES_AS_HISTORICAL_LANDS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PERCEIVES_AS_HISTORICAL_LANDS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PERCEIVES_THREAT_FROM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PERCEIVES_THREAT_FROM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PERCEIVES_WEAKNESS_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PERCEIVES_WEAKNESS_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#POSSESSES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#POSSESSES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#POSSESSES_NUCLEAR_ARMS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#POSSESSES_NUCLEAR_ARMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PREPARES_FOR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PREPARES_FOR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PRODUCES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PRODUCES"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#PROTESTED_IN -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#PROTESTED_IN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#RELIES_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#RELIES_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#SEEKING_MEMBERSHIP -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#SEEKING_MEMBERSHIP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#SEEKS_NEUTRALITY_OF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#SEEKS_NEUTRALITY_OF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#SEEKS_OBJECTIVE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#SEEKS_OBJECTIVE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#SIGNED_AGREEMENT_WITH -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#SIGNED_AGREEMENT_WITH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#STARTED_WAR -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#STARTED_WAR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#TARGETED_AT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#TARGETED_AT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#USED_ON -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet#USED_ON"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet/CONTROLS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet/CONTROLS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet/HAS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet/HAS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet/INCLUDES -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/GeoEventNet/INCLUDES"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Active-duty_Personnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Active-duty_Personnel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Agriculture -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Agriculture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Barrier_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Barrier_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Cause -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Cause"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Currency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Currency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Defense_Systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Defense_Systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Elevation_Range -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Elevation_Range"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Government_Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Government_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Impact -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Major_rivers_and_water_bodies -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Major_rivers_and_water_bodies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Military_Alliances -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Military_Alliances"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Military_Bases -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Military_Bases"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Military_Expenditure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Military_Expenditure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Notable_Features -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Notable_Features"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Nuclear_Arsenal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Nuclear_Arsenal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Population_density -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Population_density"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#President -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#President"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Reserve_Forces -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Reserve_Forces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Seasonal_Variability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Seasonal_Variability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Total_Area -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Total_Area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#UN_Security -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#UN_Security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#air_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#air_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#artillery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#artillery"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#capital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#capital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#domestic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#domestic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#gdp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#gdp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#imported_From -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#imported_From"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#land_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#land_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#missile_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#missile_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#population -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#population"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#sea_systems -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#sea_systems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Length/Extent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/GeoEventNet#Length/Extent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Agency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Agency"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Economic_Feature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Economic_Feature"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Environmental_Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Environmental_Factors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Geographical_Space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Government"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Infrastructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Military -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Military"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Objective"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/GeoEventNet#Technology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Arable_Land -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Arable_Land">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Arctic_Ocean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Arctic_Ocean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Location>North of Russia</GeoEventNet:Location>
+        <GeoEventNet:description>Provides military protection</GeoEventNet:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Bucharest_Summit_2008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Bucharest_Summit_2008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Event"/>
+        <GeoEventNet:OCCURRED_AT rdf:resource="http://www.semanticweb.org/GeoEventNet#NATO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Buffer-State_Status_for_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Buffer-State_Status_for_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Carpathian_Mountains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Carpathian_Mountains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Major_rivers_and_water_bodies>Tisza River</GeoEventNet:Major_rivers_and_water_bodies>
+        <GeoEventNet:Population_density>Low (sparsely populated).</GeoEventNet:Population_density>
+        <GeoEventNet:Total_Area>Approximately 200,000 km² (range)</GeoEventNet:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Caucasus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Caucasus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Major_rivers_and_water_bodies>Kura River, Caspian Sea.</GeoEventNet:Major_rivers_and_water_bodies>
+        <GeoEventNet:Population_density>Low to medium</GeoEventNet:Population_density>
+        <GeoEventNet:Total_Area>Approximately 440,000 km² (estimate).</GeoEventNet:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Country"/>
+        <GeoEventNet:Currency>Renminbi (Yuan)</GeoEventNet:Currency>
+        <GeoEventNet:Currency rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1400000000</GeoEventNet:Currency>
+        <GeoEventNet:Government_Type>Socialist Republic</GeoEventNet:Government_Type>
+        <GeoEventNet:Region>East Asia</GeoEventNet:Region>
+        <GeoEventNet:capital>Beijing</GeoEventNet:capital>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Coal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Coal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Crimea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Crimea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Donbass_War -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Donbass_War">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#EU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#EU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Eurasian_Flatlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Eurasian_Flatlands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Major_rivers_and_water_bodies>Dnieper River, Volga River, Ural River</GeoEventNet:Major_rivers_and_water_bodies>
+        <GeoEventNet:Population_density>Low to medium (varies by subregion).</GeoEventNet:Population_density>
+        <GeoEventNet:Total_Area>Approximately 10,000,000 km² (estimate)</GeoEventNet:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Euromaidan_Protests -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Euromaidan_Protests">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Freshwater_Reserves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Freshwater_Reserves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Gas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Gas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Grain_Corn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Grain_Corn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Imported_Weapons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Imported_Weapons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Military"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Intensified_Combat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Intensified_Combat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#International_Trade_Sea_Lanes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#International_Trade_Sea_Lanes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Economic_Feature"/>
+        <GeoEventNet:description>Global trade routes accessible via Turkish Straits</GeoEventNet:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Iron_Ore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Iron_Ore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Mercury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Mercury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#NATO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#NATO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Organization"/>
+        <GeoEventNet:PASSES_ON_DIRECT_INTERVENTION rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Weapons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Nickel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Nickel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Oil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Oil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Operational_Nuclear_Reactors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Operational_Nuclear_Reactors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Rimland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Rimland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Major_rivers_and_water_bodies>Pacific Ocean, South China Sea, Indian Ocean.</GeoEventNet:Major_rivers_and_water_bodies>
+        <GeoEventNet:Population_density>Medium to high in urban centers.</GeoEventNet:Population_density>
+        <GeoEventNet:Total_Area>Approximately 20,000,000 km² (spanning multiple countries).</GeoEventNet:Total_Area>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Russia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Russia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Country"/>
+        <GeoEventNet:CONSIDERS_USE_OF rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Weapons"/>
+        <GeoEventNet:DEPLOYED rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:FACES rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Military"/>
+        <GeoEventNet:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders"/>
+        <GeoEventNet:FACES_GEOPOLITICAL_CHALLENGE rdf:resource="http://www.semanticweb.org/GeoEventNet#Eurasian_Flatlands"/>
+        <GeoEventNet:FACES_INTERNAL_PROBLEM rdf:resource="http://www.semanticweb.org/GeoEventNet#Caucasus"/>
+        <GeoEventNet:FACES_PRESSURE_FROM rdf:resource="http://www.semanticweb.org/GeoEventNet#Rimland"/>
+        <GeoEventNet:HAS_EXPORT_PARTNER rdf:resource="http://www.semanticweb.org/GeoEventNet#China"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Coal"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Freshwater_Reserves"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Gas"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Oil"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Strategic_Minerals"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Timber"/>
+        <GeoEventNet:IS_PART_OF rdf:resource="http://www.semanticweb.org/GeoEventNet#UN_Security_Council"/>
+        <GeoEventNet:PERCEIVES_AS_HISTORICAL_LANDS rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:PERCEIVES_THREAT_FROM rdf:resource="http://www.semanticweb.org/GeoEventNet#NATO"/>
+        <GeoEventNet:PERCEIVES_WEAKNESS_IN rdf:resource="http://www.semanticweb.org/GeoEventNet#West"/>
+        <GeoEventNet:PRODUCES rdf:resource="http://www.semanticweb.org/GeoEventNet#Sugar_Beets"/>
+        <GeoEventNet:PRODUCES rdf:resource="http://www.semanticweb.org/GeoEventNet#wheat"/>
+        <GeoEventNet:SEEKS_NEUTRALITY_OF rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/GeoEventNet#Buffer-State_Status_for_Ukraine"/>
+        <GeoEventNet:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/GeoEventNet#Territorial_Annexation_of_Ukraine"/>
+        <GeoEventNet:SEEKS_OBJECTIVE rdf:resource="http://www.semanticweb.org/GeoEventNet#Total_Victory_Over_Ukraine"/>
+        <GeoEventNet:STARTED_WAR rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <HAS rdf:resource="http://www.semanticweb.org/GeoEventNet#Arctic_Ocean"/>
+        <GeoEventNet:Currency>Ruble</GeoEventNet:Currency>
+        <GeoEventNet:Government_Type>Federal</GeoEventNet:Government_Type>
+        <GeoEventNet:President>Putin</GeoEventNet:President>
+        <GeoEventNet:Region>Eastern Europe, Asia</GeoEventNet:Region>
+        <GeoEventNet:UN_Security>Yes</GeoEventNet:UN_Security>
+        <GeoEventNet:capital>Moscow</GeoEventNet:capital>
+        <GeoEventNet:gdp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</GeoEventNet:gdp>
+        <GeoEventNet:population>144 million</GeoEventNet:population>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/GeoEventNet#Russia"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/GeoEventNet#FACES_BORDER_CHALLENGE"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders"/>
+        <rdfs:comment>length: 22407</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/GeoEventNet#Russia"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/GeoEventNet#FACES_INTERNAL_PROBLEM"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/GeoEventNet#Caucasus"/>
+        <rdfs:comment>Internal problem causing resentment</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Russian_Government -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Russian_Government">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Government"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Russian_Intelligence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Russian_Intelligence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Agency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Russian_Military -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Russian_Military">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Military"/>
+        <GeoEventNet:IS_PART_OF rdf:resource="http://www.semanticweb.org/GeoEventNet#Russia"/>
+        <GeoEventNet:LAUNCHED_WAR_ON rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:MOVED_TO rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:POSSESSES_NUCLEAR_ARMS rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Weapons"/>
+        <INCLUDES rdf:resource="http://www.semanticweb.org/GeoEventNet#Russia"/>
+        <GeoEventNet:air_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:air_systems>
+        <GeoEventNet:artillery rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:artillery>
+        <GeoEventNet:land_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:land_systems>
+        <GeoEventNet:missile_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:missile_systems>
+        <GeoEventNet:sea_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:sea_systems>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Russian_Weapons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Russian_Weapons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Military"/>
+        <GeoEventNet:ANNEXED rdf:resource="http://www.semanticweb.org/GeoEventNet#Crimea"/>
+        <GeoEventNet:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders"/>
+        <GeoEventNet:HAS_IMPORT_PARTNER rdf:resource="http://www.semanticweb.org/GeoEventNet#China"/>
+        <GeoEventNet:INVOLVED_IN rdf:resource="http://www.semanticweb.org/GeoEventNet#Donbass_War"/>
+        <GeoEventNet:POSSESSES rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Military"/>
+        <GeoEventNet:TARGETED_AT rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <INCLUDES rdf:resource="http://www.semanticweb.org/GeoEventNet#Imported_Weapons"/>
+        <GeoEventNet:air_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:air_systems>
+        <GeoEventNet:artillery rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:artillery>
+        <GeoEventNet:domestic>Russia</GeoEventNet:domestic>
+        <GeoEventNet:imported_From>Iran, North Korea</GeoEventNet:imported_From>
+        <GeoEventNet:missile_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:missile_systems>
+        <GeoEventNet:sea_systems rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</GeoEventNet:sea_systems>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Salt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Salt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Strategic_Minerals -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Strategic_Minerals">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Sugar_Beets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Sugar_Beets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Sulfur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Sulfur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Territorial_Annexation_of_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Territorial_Annexation_of_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Timber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Timber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Titanium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Titanium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Total_Victory_Over_Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Total_Victory_Over_Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Objective"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Turkish_Straits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Turkish_Straits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Geographical_Space"/>
+        <GeoEventNet:Location>Between Ukraine and international trade routes</GeoEventNet:Location>
+        <GeoEventNet:description>Crucial for Ukraine&apos;s access to international sea lanes</GeoEventNet:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#UN_Security_Council -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#UN_Security_Council">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Ukrain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Ukrain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Country"/>
+        <GeoEventNet:FACES_BARRIER_FROM rdf:resource="http://www.semanticweb.org/GeoEventNet#Carpathian_Mountains"/>
+        <GeoEventNet:FACES_BORDER_CHALLENGE rdf:resource="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders"/>
+        <GeoEventNet:HAS_NUCLEAR_REACTORS rdf:resource="http://www.semanticweb.org/GeoEventNet#Operational_Nuclear_Reactors"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Arable_Land"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Coal"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Gas"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Gold"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Grain_Corn"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Iron_Ore"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Mercury"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Nickel"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Oil"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Salt"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Sulfur"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Timber"/>
+        <GeoEventNet:HAS_RESOURCE rdf:resource="http://www.semanticweb.org/GeoEventNet#Titanium"/>
+        <GeoEventNet:IS_PART_OF rdf:resource="http://www.semanticweb.org/GeoEventNet#NATO"/>
+        <GeoEventNet:LED_BY rdf:resource="http://www.semanticweb.org/GeoEventNet#Viktor_Yanukovych"/>
+        <GeoEventNet:PARTICIPATED_IN rdf:resource="http://www.semanticweb.org/GeoEventNet#Donbass_War"/>
+        <GeoEventNet:PREPARES_FOR rdf:resource="http://www.semanticweb.org/GeoEventNet#Intensified_Combat"/>
+        <GeoEventNet:PROTESTED_IN rdf:resource="http://www.semanticweb.org/GeoEventNet#Euromaidan_Protests"/>
+        <GeoEventNet:RELIES_ON rdf:resource="http://www.semanticweb.org/GeoEventNet#International_Trade_Sea_Lanes"/>
+        <GeoEventNet:RELIES_ON rdf:resource="http://www.semanticweb.org/GeoEventNet#Turkish_Straits"/>
+        <GeoEventNet:SEEKING_MEMBERSHIP rdf:resource="http://www.semanticweb.org/GeoEventNet#NATO"/>
+        <GeoEventNet:SIGNED_AGREEMENT_WITH rdf:resource="http://www.semanticweb.org/GeoEventNet#EU"/>
+        <GeoEventNet:Agriculture>Rich Soil</GeoEventNet:Agriculture>
+        <GeoEventNet:Currency>Hryvnia</GeoEventNet:Currency>
+        <GeoEventNet:Government_Type>Unitary</GeoEventNet:Government_Type>
+        <GeoEventNet:President>Zelensky</GeoEventNet:President>
+        <GeoEventNet:Region>Eastern Europe</GeoEventNet:Region>
+        <GeoEventNet:capital>kyiv</GeoEventNet:capital>
+        <GeoEventNet:gdp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</GeoEventNet:gdp>
+        <GeoEventNet:population rdf:datatype="http://www.w3.org/2001/XMLSchema#long">41000000</GeoEventNet:population>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/GeoEventNet#FACES_BORDER_CHALLENGE"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/GeoEventNet#Discontinuous_Borders"/>
+        <rdfs:comment>length : 5581</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Ukrainian_Military -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Ukrainian_Military">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Military"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Ukrainian_Sovereignty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Ukrainian_Sovereignty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Viktor_Yanukovych -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Viktor_Yanukovych">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Vladimir_Putin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Vladimir_Putin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Person"/>
+        <GeoEventNet:INFLUENCES rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Intelligence"/>
+        <GeoEventNet:ISSUES_COMMAND_TO rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Military"/>
+        <CONTROLS rdf:resource="http://www.semanticweb.org/GeoEventNet#Russian_Government"/>
+        <GeoEventNet:description>president of Russia</GeoEventNet:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#Volodymyr_Zelensky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#Volodymyr_Zelensky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Person"/>
+        <GeoEventNet:FIGHTS_FOR rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrainian_Sovereignty"/>
+        <GeoEventNet:ISSUES_COMMAND_TO rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrainian_Military"/>
+        <GeoEventNet:LEADS rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrainian_Military"/>
+        <GeoEventNet:MOBILIZED rdf:resource="http://www.semanticweb.org/GeoEventNet#Ukrain"/>
+        <GeoEventNet:description>president of Ukraine</GeoEventNet:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#West -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#West">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/GeoEventNet#wheat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/GeoEventNet#wheat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/GeoEventNet#Resources"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
